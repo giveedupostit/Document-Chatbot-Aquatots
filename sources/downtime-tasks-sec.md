@@ -3,7 +3,7 @@ doc_id: downtime-tasks-sec
 title: Downtime Tasks (S.E.C.) – Front Desk (งานช่วงว่างของ Front Desk)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1NLILYJNot9CXSpcEHHnFIKDTgtS4IP1C/view
+url: https://drive.google.com/file/d/1gnC0JoHMrrvuXpWuHdZDG2RB7uyI49JA/view
 modified: 2026-09-28
 ---
 <!-- chunk: S.E.C. คืออะไร และขั้นตอน S = Safety (ความปลอดภัย) -->

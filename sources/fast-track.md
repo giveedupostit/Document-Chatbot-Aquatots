@@ -3,7 +3,7 @@ doc_id: fast-track
 title: Fast Track SOP (คอร์สเรียนเร่งรัด Fast Track)
 category: โปรแกรมการเรียน / การขาย
 source_type: docx
-url: https://drive.google.com/file/d/1B9sbynAbgAjf5mHVDC9GUUUOL63vMn9b/view
+url: https://drive.google.com/file/d/195Bg3MULI_eLmmTZI3v5rVZtZSjCgnSg/view
 modified: 2026-09-28
 ---
 <!-- chunk: Fast Track คืออะไร และรูปแบบคอร์ส 1 สัปดาห์ / 2 สัปดาห์ -->

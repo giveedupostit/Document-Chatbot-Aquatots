@@ -3,7 +3,7 @@ doc_id: front-desk-responsibilities-by-position
 title: Front Desk Staff Responsibilities by Positions (หน้าที่ AT-FDS ตามตำแหน่ง)
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/18ZHkwtER2_j_PMctp7y9FedqrOwYuZTu/view
+url: https://drive.google.com/file/d/1INksEuhM-BN3g2SaVXvhTQgfiMo7bmRl/view
 modified: 2026-09-28
 ---
 <!-- chunk: ตำแหน่ง Front Desk ฝ่ายรักษาลูกค้า (Retention) และฝ่ายหาลูกค้าใหม่ (Acquisition) -->

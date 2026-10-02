@@ -3,7 +3,7 @@ doc_id: recruitment-process
 title: Recruitment Process Sheet (ขั้นตอนการสรรหาและว่าจ้างพนักงาน)
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1mi7qHsGAYe5Rax5NsTgeJAPwei12vuc2/view
+url: https://drive.google.com/file/d/1HxPPCSifqgA9XJoYX9ug-dXSa4DlCaIy/view
 modified: 2026-09-28
 ---
 <!-- chunk: เอกสารอ้างอิงและขั้นตอนวางแผน กำหนดกลยุทธ์ และรวบรวมใบสมัคร -->

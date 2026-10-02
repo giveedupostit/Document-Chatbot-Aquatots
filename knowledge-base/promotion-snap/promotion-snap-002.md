@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "โปรแกรมการเรียน / การขาย"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1C8hl4gug0phQRqNRNdMOOx9jA3bQeWyO/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1dTa7ISVEevvBw9nengF3Gk9c4o72JEgX/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -27,4 +27,4 @@ language: "th"
 
 (HQ Thai Update / April 2026)
 
-**แหล่งอ้างอิง:** [Promotion SNAP (นักเรียนที่ต้องการโปรแกรมแบบปรับเฉพาะบุคคล)](https://drive.google.com/file/d/1C8hl4gug0phQRqNRNdMOOx9jA3bQeWyO/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [Promotion SNAP (นักเรียนที่ต้องการโปรแกรมแบบปรับเฉพาะบุคคล)](https://drive.google.com/file/d/1dTa7ISVEevvBw9nengF3Gk9c4o72JEgX/view) (ส่วนที่ 2/2)

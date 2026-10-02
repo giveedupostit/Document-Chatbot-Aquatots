@@ -3,7 +3,7 @@ doc_id: lead-on-duty
 title: Lead on Duty Role and Responsibilities (หัวหน้าประจำกะ)
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/1siAlz4y9jxMG38MnU35vjVq78VTIl_h8/view
+url: https://drive.google.com/file/d/13YPrqivsYpGDY0dVTXUcUYrMZ-KE1XaJ/view
 modified: 2026-09-28
 ---
 <!-- chunk: บทบาท Lead on Duty คุณสมบัติ และขอบเขตความรับผิดชอบ -->

@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/13n1DaD2YYcRJhiRB2cX9AV8FMvyrqOED/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1TdtETXo-xrGHGt2-ORV-Ps6s7dz3OTU2/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -41,4 +41,4 @@ language: "th"
 - บริหารกรณีปิดสระ จัดงานทำความสะอาดช่วงไม่มีคลาส และดูแลการตรวจวัดสารเคมีในสระ
 - กรณีเกิดเหตุเล็กน้อย ปฏิบัติตามขั้นตอน สื่อสารกับผู้ปกครอง และรายงาน Lead on Duty และ/หรือ Aquatic Manager
 
-**แหล่งอ้างอิง:** [Job Description - Deck Supervisor (หัวหน้าดูแลขอบสระ)](https://drive.google.com/file/d/13n1DaD2YYcRJhiRB2cX9AV8FMvyrqOED/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [Job Description - Deck Supervisor (หัวหน้าดูแลขอบสระ)](https://drive.google.com/file/d/1TdtETXo-xrGHGt2-ORV-Ps6s7dz3OTU2/view) (ส่วนที่ 1/2)

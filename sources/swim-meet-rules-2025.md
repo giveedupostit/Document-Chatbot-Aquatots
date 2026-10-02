@@ -3,7 +3,7 @@ doc_id: swim-meet-rules-2025
 title: ระเบียบการแข่งขัน Swim Meet 2025 (สาขาทวีวัฒนา)
 category: กิจกรรม / อีเวนต์
 source_type: docx
-url: https://drive.google.com/file/d/1qYN2rXp9rnfieOkGlfmnfY8PzNwmQ7-x/view
+url: https://drive.google.com/file/d/17vo1uqvA3crDAxNmwt96DzpvXdCNeRZI/view
 modified: 2026-09-28
 ---
 <!-- chunk: วัตถุประสงค์ รุ่นการแข่งขัน คุณสมบัติ รางวัล และค่าสมัคร Swim Meet 2025 -->

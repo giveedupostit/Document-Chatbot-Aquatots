@@ -3,7 +3,7 @@ doc_id: incident-management
 title: TH Communication and Incident Management
 category: SOP ความปลอดภัย / การจัดการเหตุการณ์
 source_type: docx
-url: https://drive.google.com/file/d/1wbhfii5uMMwKiJN62GOg96_mO7V7IlBX/view
+url: https://docs.google.com/document/d/12wy6yQTsW44uZPepjfXOH3WPqjPMsCNelZzUOSpc6Zw/edit
 modified: 2026-09-29
 ---
 <!-- chunk: วัตถุประสงค์และขอบเขตการใช้งาน -->

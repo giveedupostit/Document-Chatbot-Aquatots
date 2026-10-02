@@ -7,8 +7,8 @@ chunk_index: 4
 total_chunks: 5
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1sIsLSYEObt-58Ou6Ahv6V6SV5-5s3zyY/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1FYN4hzhV-Cw1HApgXNKk4GlpIV-gLphf/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -30,4 +30,4 @@ language: "th"
 - ถ่ายภาพครอบครัวที่ลงนามแบบฟอร์มอนุญาตใช้ภาพ (Photo Release Waiver) และเผยแพร่บน Social Media
 - โพสต์ประชาสัมพันธ์ต่อเนื่อง และเตรียมของรางวัลให้พร้อมแจก
 
-**แหล่งอ้างอิง:** [Customer Appreciation Week SOP (สัปดาห์ขอบคุณลูกค้า)](https://drive.google.com/file/d/1sIsLSYEObt-58Ou6Ahv6V6SV5-5s3zyY/view) (ส่วนที่ 4/5)
+**แหล่งอ้างอิง:** [Customer Appreciation Week SOP (สัปดาห์ขอบคุณลูกค้า)](https://drive.google.com/file/d/1FYN4hzhV-Cw1HApgXNKk4GlpIV-gLphf/view) (ส่วนที่ 4/5)

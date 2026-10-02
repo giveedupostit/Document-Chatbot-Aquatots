@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1knoYuFOLjBCD2FOYN3_gNvi1Wb-YBrWY/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1SbJcUOJXNvh5SHH5RsutG7QkCWwSxti1/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -39,4 +39,4 @@ language: "th"
 - สุ่มเลือกผู้ชนะจากกิจกรรมโหลลูกกวาด และติดต่อผู้ชนะ
 - โพสต์ประกาศรายชื่อผู้ชนะบนโซเชียลมีเดีย
 
-**แหล่งอ้างอิง:** [Valentine's Day SOP (กิจกรรมวันวาเลนไทน์)](https://drive.google.com/file/d/1knoYuFOLjBCD2FOYN3_gNvi1Wb-YBrWY/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [Valentine's Day SOP (กิจกรรมวันวาเลนไทน์)](https://drive.google.com/file/d/1SbJcUOJXNvh5SHH5RsutG7QkCWwSxti1/view) (ส่วนที่ 2/2)

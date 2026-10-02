@@ -3,7 +3,7 @@ doc_id: daily-task-list
 title: Swim School Daily Task List Form (รายการงานประจำวันของโรงเรียน)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1_xR9qYFu-7lGMLTSGN50fUSkU7xpmdCh/view
+url: https://drive.google.com/file/d/1KJSXAKlMYiiuqPKLa7HoaPGiltgZMwf4/view
 modified: 2026-09-28
 ---
 <!-- chunk: งานเปิดโรงเรียน (Open the School) และช่วงคลาสเช้า (AM Swim Lessons) -->

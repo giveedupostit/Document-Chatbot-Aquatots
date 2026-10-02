@@ -7,8 +7,8 @@ chunk_index: 5
 total_chunks: 6
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1qYN2rXp9rnfieOkGlfmnfY8PzNwmQ7-x/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/17vo1uqvA3crDAxNmwt96DzpvXdCNeRZI/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -37,4 +37,4 @@ language: "th"
 
 ท่าฟรีสไตล์/กรรเชียง/เก็บริง หยุดเวลาเมื่อมือข้างใดข้างหนึ่งแตะกำแพง
 
-**แหล่งอ้างอิง:** [ระเบียบการแข่งขัน Swim Meet 2025 (สาขาทวีวัฒนา)](https://drive.google.com/file/d/1qYN2rXp9rnfieOkGlfmnfY8PzNwmQ7-x/view) (ส่วนที่ 5/6)
+**แหล่งอ้างอิง:** [ระเบียบการแข่งขัน Swim Meet 2025 (สาขาทวีวัฒนา)](https://drive.google.com/file/d/17vo1uqvA3crDAxNmwt96DzpvXdCNeRZI/view) (ส่วนที่ 5/6)

@@ -3,7 +3,7 @@ doc_id: jd-wsi-co-teacher
 title: Job Description - AT-WSI Co-Teacher (ครูผู้สอนร่วม)
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/1d1ZB-w0Q5k71gJ3TszFOQJzBQhazXjsB/view
+url: https://drive.google.com/file/d/1wiR10I1Rhx-gBzgRgUzD0tZJFbIjNok3/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง AT-WSI Co-Teacher และหน้าที่ความรับผิดชอบ -->

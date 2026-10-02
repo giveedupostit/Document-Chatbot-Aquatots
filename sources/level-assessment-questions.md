@@ -3,7 +3,7 @@ doc_id: level-assessment-questions
 title: แนะนำคำถามการประเมินเลเวล (Level 1–8)
 category: FAQ / ข้อมูลลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/185iWryl_lAvs81VqRvaKHTkmT0ItZkOJ/view
+url: https://drive.google.com/file/d/13txZWrNB3pKJi9Up5U3OGEyM_dKmoNDq/view
 modified: 2026-09-28
 ---
 <!-- chunk: การประเมินเลเวล 1–3 (ตามอายุ และคำถามสำหรับเลเวล 3) -->

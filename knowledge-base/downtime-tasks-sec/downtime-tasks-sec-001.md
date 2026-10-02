@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1NLILYJNot9CXSpcEHHnFIKDTgtS4IP1C/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1gnC0JoHMrrvuXpWuHdZDG2RB7uyI49JA/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -35,4 +35,4 @@ language: "th"
 6. ป้องกันเด็กเข้าห้องสระโดยไม่ได้รับอนุญาต โดยเฉพาะช่วง Door Time Feedback
 7. สังเกตพื้นที่ต่าง ๆ พูดคุยกับครอบครัว และทักคนที่ดูไม่คุ้นเคย
 
-**แหล่งอ้างอิง:** [Downtime Tasks (S.E.C.) – Front Desk (งานช่วงว่างของ Front Desk)](https://drive.google.com/file/d/1NLILYJNot9CXSpcEHHnFIKDTgtS4IP1C/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [Downtime Tasks (S.E.C.) – Front Desk (งานช่วงว่างของ Front Desk)](https://drive.google.com/file/d/1gnC0JoHMrrvuXpWuHdZDG2RB7uyI49JA/view) (ส่วนที่ 1/2)

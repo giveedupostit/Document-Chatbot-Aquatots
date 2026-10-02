@@ -7,8 +7,8 @@ chunk_index: 4
 total_chunks: 4
 category: "โปรแกรมการเรียน / การขาย"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1B9sbynAbgAjf5mHVDC9GUUUOL63vMn9b/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/195Bg3MULI_eLmmTZI3v5rVZtZSjCgnSg/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -25,4 +25,4 @@ language: "th"
 
 (Fast Track SOP / March 2025)
 
-**แหล่งอ้างอิง:** [Fast Track SOP (คอร์สเรียนเร่งรัด Fast Track)](https://drive.google.com/file/d/1B9sbynAbgAjf5mHVDC9GUUUOL63vMn9b/view) (ส่วนที่ 4/4)
+**แหล่งอ้างอิง:** [Fast Track SOP (คอร์สเรียนเร่งรัด Fast Track)](https://drive.google.com/file/d/195Bg3MULI_eLmmTZI3v5rVZtZSjCgnSg/view) (ส่วนที่ 4/4)

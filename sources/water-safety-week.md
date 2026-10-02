@@ -3,7 +3,7 @@ doc_id: water-safety-week
 title: Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)
 category: กิจกรรม / อีเวนต์
 source_type: docx
-url: https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view
+url: https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view
 modified: 2026-09-28
 ---
 <!-- chunk: ภาพรวมกิจกรรม Water Safety Week และเอกสารอ้างอิง -->

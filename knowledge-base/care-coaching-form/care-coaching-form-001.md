@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 4
 category: "การขาย / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/14lUqcHPzih2Cwt27QjYV8mA6ZsdLEQtG/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1R6AxUkYf-tQbnxeSm98cs37sN1yBzpqD/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -44,4 +44,4 @@ language: "th"
 - **ไม่เริ่มต้นด้วยการพูดเรื่องราคา**
 - ให้ความรู้สึกโดยรวมที่น่ารื่นรมย์
 
-**แหล่งอ้างอิง:** [C.A.R.E. Coaching Form (แบบฟอร์มการประเมินกระบวนการขาย C.A.R.E.)](https://drive.google.com/file/d/14lUqcHPzih2Cwt27QjYV8mA6ZsdLEQtG/view) (ส่วนที่ 1/4)
+**แหล่งอ้างอิง:** [C.A.R.E. Coaching Form (แบบฟอร์มการประเมินกระบวนการขาย C.A.R.E.)](https://drive.google.com/file/d/1R6AxUkYf-tQbnxeSm98cs37sN1yBzpqD/view) (ส่วนที่ 1/4)

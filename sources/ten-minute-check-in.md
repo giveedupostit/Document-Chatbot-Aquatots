@@ -3,7 +3,7 @@ doc_id: ten-minute-check-in
 title: 10-Minute Check-In SOP (การเช็กอินผู้ปกครองนาทีที่ 10)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1TEiG5D8sFaunA-gUlmhbtXLRI5h3RPVu/view
+url: https://drive.google.com/file/d/1lcPUSRlnyYCihHzSaZihdWRFwfBW40dM/view
 modified: 2026-09-28
 ---
 <!-- chunk: 10-Minute Check-In คืออะไร และขั้นตอนสำหรับนักเรียนที่ไม่ร้องไห้ -->

@@ -3,7 +3,7 @@ doc_id: pike13-work-system-sop
 title: SOP ระบบการทำงาน (Pike13 / Digipay / ATU)
 category: SOP ระบบ Pike13 / Front Desk
 source_type: docx
-url: https://drive.google.com/file/d/1Tpw0ohMNTZGQN4VHv5lWSG27udxw1vD_/view
+url: https://drive.google.com/file/d/1iSfAyLHbM0oiR6y4Yrb4w9-dKE1BdcrV/view
 modified: 2026-09-28
 ---
 <!-- chunk: วิธีสร้างลูกค้าใหม่ใน Pike13 -->

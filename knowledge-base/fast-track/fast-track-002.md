@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 4
 category: "โปรแกรมการเรียน / การขาย"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1B9sbynAbgAjf5mHVDC9GUUUOL63vMn9b/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/195Bg3MULI_eLmmTZI3v5rVZtZSjCgnSg/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -28,4 +28,4 @@ language: "th"
 
 Aqua-Tots แนะนำโปรแกรมนี้อย่างยิ่ง เพื่อช่วยนักว่ายน้ำใหม่ในช่วง spring/summer ให้ปรับตัวในน้ำและลดความกังวลได้รวดเร็ว (เช่น Level 3 Younger, Level 3 Older และ Level 4 ที่รวมคลาสกันได้) หลังจบ Fast Track ผู้สอนควรกระตุ้นให้ผู้ปกครองลงเรียนรายเดือนต่อเพื่อพัฒนาการต่อเนื่อง
 
-**แหล่งอ้างอิง:** [Fast Track SOP (คอร์สเรียนเร่งรัด Fast Track)](https://drive.google.com/file/d/1B9sbynAbgAjf5mHVDC9GUUUOL63vMn9b/view) (ส่วนที่ 2/4)
+**แหล่งอ้างอิง:** [Fast Track SOP (คอร์สเรียนเร่งรัด Fast Track)](https://drive.google.com/file/d/195Bg3MULI_eLmmTZI3v5rVZtZSjCgnSg/view) (ส่วนที่ 2/4)

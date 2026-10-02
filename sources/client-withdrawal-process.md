@@ -3,7 +3,7 @@ doc_id: client-withdrawal-process
 title: Client Withdrawal Process (กระบวนการลาออกของนักเรียน)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1cEC3p1WcT22Zq-UFG89zIAX6Qh8P1QFA/view
+url: https://drive.google.com/file/d/1EQ1xrvyEm-NeCJriWrMtg64OYC-CvPtb/view
 modified: 2026-09-28
 ---
 <!-- chunk: ขั้นตอนเมื่อผู้ปกครองแจ้งยกเลิกการเรียน: สอบถามสาเหตุและพยายามรักษานักเรียน -->

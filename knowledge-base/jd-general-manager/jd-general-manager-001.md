@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 3
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1d4XYjbz0ULqtX7VO592KB2OYDtBNOBad/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1b3lkuWEjmzBeg9MCOtOG-awuQb4TatiW/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -36,4 +36,4 @@ language: "th"
 - รักษามาตรฐานคุณภาพการสอน การบริการ และความสะอาด
 - กำหนดเป้าหมายยอดขาย และวางระบบแรงจูงใจให้พนักงาน
 
-**แหล่งอ้างอิง:** [Job Description - General Manager (GM) ผู้จัดการทั่วไป](https://drive.google.com/file/d/1d4XYjbz0ULqtX7VO592KB2OYDtBNOBad/view) (ส่วนที่ 1/3)
+**แหล่งอ้างอิง:** [Job Description - General Manager (GM) ผู้จัดการทั่วไป](https://drive.google.com/file/d/1b3lkuWEjmzBeg9MCOtOG-awuQb4TatiW/view) (ส่วนที่ 1/3)

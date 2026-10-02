@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1-1DEdiAnitz5BePP9UzOgwicBd8CLc_Q/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1OqdgSormXeoFOkNiRpRCesX7mHorMOOK/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -35,4 +35,4 @@ language: "th"
 - กำหนดกิจกรรม โดยเปิดให้ทุกคนมีส่วนร่วมเลือก เพื่อสร้างความรู้สึกเป็นเจ้าของและเพิ่มความกระตือรือร้น
 - ตัวอย่างกิจกรรม: สวนสนุก, พิพิธภัณฑ์สัตว์น้ำ, อาร์เคด, ยิงธนู, คลาสปั้นเซรามิก, ปาขวาน, แข่งทำขนม, Board game night, โบว์ลิ่ง, คอนเสิร์ต, คลาสทำอาหาร, Escape room, Field Day, โกคาร์ท, คาราโอเกะ, Laser Tag, มินิกอล์ฟ, Minute-to-Win-It, Movie night, พิพิธภัณฑ์, คลาสวาดภาพ, ปาร์ตี้สระน้ำ (ที่โรงเรียนได้), เครื่องเล่นเชือก, กีฬา, Top Golf, Video game night, VR, Water park, สวนสัตว์ ฯลฯ
 
-**แหล่งอ้างอิง:** [How to Plan and Facilitate a Team-Building Activity (การวางแผนและจัดกิจกรรม Team Building)](https://drive.google.com/file/d/1-1DEdiAnitz5BePP9UzOgwicBd8CLc_Q/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [How to Plan and Facilitate a Team-Building Activity (การวางแผนและจัดกิจกรรม Team Building)](https://drive.google.com/file/d/1OqdgSormXeoFOkNiRpRCesX7mHorMOOK/view) (ส่วนที่ 1/2)

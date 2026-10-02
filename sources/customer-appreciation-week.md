@@ -3,7 +3,7 @@ doc_id: customer-appreciation-week
 title: Customer Appreciation Week SOP (สัปดาห์ขอบคุณลูกค้า)
 category: กิจกรรม / อีเวนต์
 source_type: docx
-url: https://drive.google.com/file/d/1sIsLSYEObt-58Ou6Ahv6V6SV5-5s3zyY/view
+url: https://drive.google.com/file/d/1FYN4hzhV-Cw1HApgXNKk4GlpIV-gLphf/view
 modified: 2026-09-28
 ---
 <!-- chunk: ภาพรวมและช่วงเวลาที่ควรจัด Customer Appreciation Week -->

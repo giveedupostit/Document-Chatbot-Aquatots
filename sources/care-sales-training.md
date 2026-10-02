@@ -3,7 +3,7 @@ doc_id: care-sales-training
 title: C.A.R.E Sales (คู่มืออบรมกระบวนการขาย C.A.R.E. และ Retention)
 category: การขาย / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1fn3L-v42W3E4vbouu-FrGWE42OSzF6FL/view
+url: https://drive.google.com/file/d/120njkIjVws2Tc-2B9NZennQFf6nysI4W/view
 modified: 2026-09-28
 ---
 <!-- chunk: แนวคิดของ C.A.R.E Sales: ไม่ใช่พนักงานขาย แต่เป็นไกด์ที่น่าเชื่อถือ -->

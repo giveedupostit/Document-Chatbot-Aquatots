@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1EI_zaU7mMKpQwyQmsYhR8eaFW8UODimY/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/14qD5BtFLt8oMKfdkUEnGK-a9z3GN4iBh/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -46,4 +46,4 @@ language: "th"
 
 (รายละเอียดงานผู้จัดการสำนักงาน / เมษายน 2025)
 
-**แหล่งอ้างอิง:** [Job Description - Office Manager (OM) ผู้จัดการสำนักงาน](https://drive.google.com/file/d/1EI_zaU7mMKpQwyQmsYhR8eaFW8UODimY/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [Job Description - Office Manager (OM) ผู้จัดการสำนักงาน](https://drive.google.com/file/d/14qD5BtFLt8oMKfdkUEnGK-a9z3GN4iBh/view) (ส่วนที่ 1/1)

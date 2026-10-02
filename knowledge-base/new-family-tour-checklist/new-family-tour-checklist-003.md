@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 3
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1dBEAZRhsXKwIq5rI11ckMMZIbhv4UBde/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/103nRB7ZFUtsUPcYH-aFVMZTKQN3NQ7Jh/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -40,4 +40,4 @@ language: "th"
 
 (New Family Tour Checklist SOP / April 2025)
 
-**แหล่งอ้างอิง:** [New Family Tour Checklist SOP (เช็กลิสต์พาทัวร์ครอบครัวใหม่)](https://drive.google.com/file/d/1dBEAZRhsXKwIq5rI11ckMMZIbhv4UBde/view) (ส่วนที่ 3/3)
+**แหล่งอ้างอิง:** [New Family Tour Checklist SOP (เช็กลิสต์พาทัวร์ครอบครัวใหม่)](https://drive.google.com/file/d/103nRB7ZFUtsUPcYH-aFVMZTKQN3NQ7Jh/view) (ส่วนที่ 3/3)

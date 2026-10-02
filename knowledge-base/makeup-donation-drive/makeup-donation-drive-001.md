@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 7
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1U3-jiNWO0ggIiLyFhm3MXGrxVcUtZv3X/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1OMa70r0_RkQ9QwMk2Ijhc2zLNwEXs3Ep/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -25,4 +25,4 @@ language: "th"
 - The Hub > [Available Make-Up Report](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERAgswp_d2ROrjoxwJOQoRMBAqwmvlH-F88POh5aRW18Vw?e=DSPmUl)
 - Vimeo > https://vimeo.com/atss/review/470334384/5758244ef8
 
-**แหล่งอ้างอิง:** [Make-Up Lesson Donation Drive SOP (กิจกรรมบริจาคคลาสเรียนเมคอัพ)](https://drive.google.com/file/d/1U3-jiNWO0ggIiLyFhm3MXGrxVcUtZv3X/view) (ส่วนที่ 1/7)
+**แหล่งอ้างอิง:** [Make-Up Lesson Donation Drive SOP (กิจกรรมบริจาคคลาสเรียนเมคอัพ)](https://drive.google.com/file/d/1OMa70r0_RkQ9QwMk2Ijhc2zLNwEXs3Ep/view) (ส่วนที่ 1/7)

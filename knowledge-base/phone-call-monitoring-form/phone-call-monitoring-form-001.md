@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "การขาย / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1BuUBGfpT2f3xwQN70cuuET0gkPVZFrv4/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1_HFqMPUFp9E3K8s-LwEi-NBNyMBuX9sY/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -46,4 +46,4 @@ language: "th"
 
 **Follow Up:** ต้องการการฝึกเพิ่มไหม (Y/N, วันนัดติดตาม) และเสร็จสิ้นการฝึก (Y/N, วันที่แล้วเสร็จ)
 
-**แหล่งอ้างอิง:** [Phone Call Monitoring Form (แบบฟอร์มการตรวจสอบการรับโทรศัพท์ A.Q.U.A)](https://drive.google.com/file/d/1BuUBGfpT2f3xwQN70cuuET0gkPVZFrv4/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [Phone Call Monitoring Form (แบบฟอร์มการตรวจสอบการรับโทรศัพท์ A.Q.U.A)](https://drive.google.com/file/d/1_HFqMPUFp9E3K8s-LwEi-NBNyMBuX9sY/view) (ส่วนที่ 1/1)

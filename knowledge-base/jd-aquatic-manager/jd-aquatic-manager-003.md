@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 3
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/17jNTGUCpF90nth-6o9_YeI8oh8UOWJJG/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1DkJoxXAaon_kMiMbwTjf3PD42zcrbcO3/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -39,4 +39,4 @@ language: "th"
 
 (รายละเอียดงานผู้จัดการทางน้ำ – 03/2024)
 
-**แหล่งอ้างอิง:** [Job Description - Aquatic Manager (AM) ผู้จัดการฝ่ายสระ](https://drive.google.com/file/d/17jNTGUCpF90nth-6o9_YeI8oh8UOWJJG/view) (ส่วนที่ 3/3)
+**แหล่งอ้างอิง:** [Job Description - Aquatic Manager (AM) ผู้จัดการฝ่ายสระ](https://drive.google.com/file/d/1DkJoxXAaon_kMiMbwTjf3PD42zcrbcO3/view) (ส่วนที่ 3/3)

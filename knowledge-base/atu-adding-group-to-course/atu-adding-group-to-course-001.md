@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "ระบบ / เครื่องมือ"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1v72fxKvmHOtGDO7Uev8ks9QPm7RDyhNq/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1B_MZs-YnRc2ikWcfrbbgoe-c0iHjCxsv/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -31,4 +31,4 @@ language: "th"
 
 (ATU - Adding a Group to a Course SOP / November 2025)
 
-**แหล่งอ้างอิง:** [ATU - Adding a Group to a Course SOP (เพิ่มกลุ่มเข้าหลักสูตร Aqua-Tots University)](https://drive.google.com/file/d/1v72fxKvmHOtGDO7Uev8ks9QPm7RDyhNq/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [ATU - Adding a Group to a Course SOP (เพิ่มกลุ่มเข้าหลักสูตร Aqua-Tots University)](https://drive.google.com/file/d/1B_MZs-YnRc2ikWcfrbbgoe-c0iHjCxsv/view) (ส่วนที่ 1/1)

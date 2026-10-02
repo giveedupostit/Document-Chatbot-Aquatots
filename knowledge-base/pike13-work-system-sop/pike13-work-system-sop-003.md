@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 11
 category: "SOP ระบบ Pike13 / Front Desk"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1Tpw0ohMNTZGQN4VHv5lWSG27udxw1vD_/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1iSfAyLHbM0oiR6y4Yrb4w9-dKE1BdcrV/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -21,4 +21,4 @@ language: "th"
    - **Sign by email** — เซ็นรับทราบผ่านอีเมล
    - **Already signed offline** — เซ็นรับทราบทางกระดาษ/ใบสมัครแล้ว
 
-**แหล่งอ้างอิง:** [SOP ระบบการทำงาน (Pike13 / Digipay / ATU)](https://drive.google.com/file/d/1Tpw0ohMNTZGQN4VHv5lWSG27udxw1vD_/view) (ส่วนที่ 3/11)
+**แหล่งอ้างอิง:** [SOP ระบบการทำงาน (Pike13 / Digipay / ATU)](https://drive.google.com/file/d/1iSfAyLHbM0oiR6y4Yrb4w9-dKE1BdcrV/view) (ส่วนที่ 3/11)

@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1-1DEdiAnitz5BePP9UzOgwicBd8CLc_Q/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1OqdgSormXeoFOkNiRpRCesX7mHorMOOK/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -41,4 +41,4 @@ language: "th"
 
 (How to Plan and Facilitate a Team-Building Activity / May 2025)
 
-**แหล่งอ้างอิง:** [How to Plan and Facilitate a Team-Building Activity (การวางแผนและจัดกิจกรรม Team Building)](https://drive.google.com/file/d/1-1DEdiAnitz5BePP9UzOgwicBd8CLc_Q/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [How to Plan and Facilitate a Team-Building Activity (การวางแผนและจัดกิจกรรม Team Building)](https://drive.google.com/file/d/1OqdgSormXeoFOkNiRpRCesX7mHorMOOK/view) (ส่วนที่ 2/2)

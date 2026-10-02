@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1siAlz4y9jxMG38MnU35vjVq78VTIl_h8/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/13YPrqivsYpGDY0dVTXUcUYrMZ-KE1XaJ/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -44,4 +44,4 @@ language: "th"
 
 (Lead on Duty Role and Responsibilities / May 2025)
 
-**แหล่งอ้างอิง:** [Lead on Duty Role and Responsibilities (หัวหน้าประจำกะ)](https://drive.google.com/file/d/1siAlz4y9jxMG38MnU35vjVq78VTIl_h8/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [Lead on Duty Role and Responsibilities (หัวหน้าประจำกะ)](https://drive.google.com/file/d/13YPrqivsYpGDY0dVTXUcUYrMZ-KE1XaJ/view) (ส่วนที่ 1/1)

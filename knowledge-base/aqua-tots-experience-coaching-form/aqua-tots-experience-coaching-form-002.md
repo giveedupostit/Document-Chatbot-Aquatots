@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 3
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/10SKYBxIysvvVd5bpFClmY2YZZiYgb0KX/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1aUmTDLs_L4GlqUg4sP2ow6sKb_fJfRRI/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -28,4 +28,4 @@ language: "th"
    - **Areas of Focus** (ประเด็นที่ควรพัฒนา)
    - **Goals Set with Timeline** (เป้าหมายพร้อมกรอบเวลา)
 
-**แหล่งอ้างอิง:** [Creating the Aqua-Tots Experience Coaching Form SOP (แบบฟอร์มโค้ชชิ่ง Front Desk)](https://drive.google.com/file/d/10SKYBxIysvvVd5bpFClmY2YZZiYgb0KX/view) (ส่วนที่ 2/3)
+**แหล่งอ้างอิง:** [Creating the Aqua-Tots Experience Coaching Form SOP (แบบฟอร์มโค้ชชิ่ง Front Desk)](https://drive.google.com/file/d/1aUmTDLs_L4GlqUg4sP2ow6sKb_fJfRRI/view) (ส่วนที่ 2/3)

@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1d1ZB-w0Q5k71gJ3TszFOQJzBQhazXjsB/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1wiR10I1Rhx-gBzgRgUzD0tZJFbIjNok3/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 
 (AT-WSI Co-Teacher Job Description / March 2025)
 
-**แหล่งอ้างอิง:** [Job Description - AT-WSI Co-Teacher (ครูผู้สอนร่วม)](https://drive.google.com/file/d/1d1ZB-w0Q5k71gJ3TszFOQJzBQhazXjsB/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [Job Description - AT-WSI Co-Teacher (ครูผู้สอนร่วม)](https://drive.google.com/file/d/1wiR10I1Rhx-gBzgRgUzD0tZJFbIjNok3/view) (ส่วนที่ 2/2)

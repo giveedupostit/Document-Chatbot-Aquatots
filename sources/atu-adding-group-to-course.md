@@ -3,7 +3,7 @@ doc_id: atu-adding-group-to-course
 title: ATU - Adding a Group to a Course SOP (เพิ่มกลุ่มเข้าหลักสูตร Aqua-Tots University)
 category: ระบบ / เครื่องมือ
 source_type: docx
-url: https://drive.google.com/file/d/1v72fxKvmHOtGDO7Uev8ks9QPm7RDyhNq/view
+url: https://drive.google.com/file/d/1B_MZs-YnRc2ikWcfrbbgoe-c0iHjCxsv/view
 modified: 2026-09-28
 ---
 <!-- chunk: ขั้นตอนเพิ่มกลุ่ม (Group) เข้าหลักสูตรใน ATU -->

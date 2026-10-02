@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 8
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 
 **เอกสารอ้างอิงหลัก (The Hub):** Swim Meet Inventory List, Swim Meet - Pike13 Setup, Swim Meet Heat Sheet - TEMPLATE, How to Create Heats for a Swim Meet (https://vimeo.com/713869723/21134191ff), Swim Meet Staff Roles and Responsibilities, Swim Meet Floor Plan and Flow, Confirming Attendance, Adding Photo Release to Roster Settings, Swim Meet Brandbot Segments, Creating a Directable Playlist, Swim Meet Event Check-in Checklist, Swim Meet Day of Checklist, Swim Meet Q&A, Swim Meet In-Service Facilitator Guide (All Staff)
 
-**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view) (ส่วนที่ 1/8)
+**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view) (ส่วนที่ 1/8)

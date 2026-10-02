@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 3
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/18ZHkwtER2_j_PMctp7y9FedqrOwYuZTu/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1INksEuhM-BN3g2SaVXvhTQgfiMo7bmRl/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -29,4 +29,4 @@ language: "th"
 - [Swim School Daily Task List](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EafiDobLvIdFuRM4Mpeb0oEB4iDMjrouDCVEy8JriQwp_A?e=GKcoEV)
 - [Confirm Attendance.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ESMcXEMkHDZDoMTGB-nqErMBJ1B7qiYPC4g5A5m4BmUhdA?e=3buAGH)
 
-**แหล่งอ้างอิง:** [Front Desk Staff Responsibilities by Positions (หน้าที่ AT-FDS ตามตำแหน่ง)](https://drive.google.com/file/d/18ZHkwtER2_j_PMctp7y9FedqrOwYuZTu/view) (ส่วนที่ 1/3)
+**แหล่งอ้างอิง:** [Front Desk Staff Responsibilities by Positions (หน้าที่ AT-FDS ตามตำแหน่ง)](https://drive.google.com/file/d/1INksEuhM-BN3g2SaVXvhTQgfiMo7bmRl/view) (ส่วนที่ 1/3)

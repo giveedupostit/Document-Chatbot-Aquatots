@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "FAQ / ข้อมูลลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1WsAcT8tCpnEuBXWjuOQIjytOE2twIt6X/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1CW-XCeSA-u5bvhTkNlk0K6f05jsb4hzJ/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 
 (HQ Thai Update / April 2026)
 
-**แหล่งอ้างอิง:** [Step การพูดกฎระเบียบและขั้นตอนการแจ้งนโยบายจ่ายเงิน](https://drive.google.com/file/d/1WsAcT8tCpnEuBXWjuOQIjytOE2twIt6X/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [Step การพูดกฎระเบียบและขั้นตอนการแจ้งนโยบายจ่ายเงิน](https://drive.google.com/file/d/1CW-XCeSA-u5bvhTkNlk0K6f05jsb4hzJ/view) (ส่วนที่ 2/2)

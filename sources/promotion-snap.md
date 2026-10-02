@@ -3,7 +3,7 @@ doc_id: promotion-snap
 title: Promotion SNAP (นักเรียนที่ต้องการโปรแกรมแบบปรับเฉพาะบุคคล)
 category: โปรแกรมการเรียน / การขาย
 source_type: docx
-url: https://drive.google.com/file/d/1C8hl4gug0phQRqNRNdMOOx9jA3bQeWyO/view
+url: https://drive.google.com/file/d/1dTa7ISVEevvBw9nengF3Gk9c4o72JEgX/view
 modified: 2026-09-28
 ---
 <!-- chunk: นักเรียน SNAP คือใคร และการจัดเก็บข้อมูลใน S.N.A.P. Student Binder -->

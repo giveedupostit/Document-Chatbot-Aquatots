@@ -3,7 +3,7 @@ doc_id: in-water-evaluation-front-desk
 title: In-Water Evaluation (IWE) - Front Desk SOP (การประเมินทักษะในน้ำ / ทดลองเรียน)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1duWiks_u2zMMcDa4wS755Q1c5sI0plTi/view
+url: https://drive.google.com/file/d/1Su3TZLSnHromgXFFx-_lceK2ESB-aFQ0/view
 modified: 2026-09-28
 ---
 <!-- chunk: IWE คืออะไร และขั้นตอนลงทะเบียน IWE -->

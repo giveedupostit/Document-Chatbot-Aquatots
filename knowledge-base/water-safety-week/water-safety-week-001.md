@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 5
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -32,4 +32,4 @@ language: "th"
 - [Sending Out Mass Text Messaging Communication](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EZXMNF8I9BxOuXKhGDvzqu4Bdt6EvPAC4dN54TvFWtstdQ?e=YvT8GD)
 - สื่อการตลาด: https://aqua-tots.mediavalet.com/portals/Q2Campaign
 
-**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view) (ส่วนที่ 1/5)
+**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view) (ส่วนที่ 1/5)

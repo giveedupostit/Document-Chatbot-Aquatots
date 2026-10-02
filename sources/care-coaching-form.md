@@ -3,7 +3,7 @@ doc_id: care-coaching-form
 title: C.A.R.E. Coaching Form (แบบฟอร์มการประเมินกระบวนการขาย C.A.R.E.)
 category: การขาย / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/14lUqcHPzih2Cwt27QjYV8mA6ZsdLEQtG/view
+url: https://drive.google.com/file/d/1R6AxUkYf-tQbnxeSm98cs37sN1yBzpqD/view
 modified: 2026-09-28
 ---
 <!-- chunk: แบบฟอร์มประเมิน C.A.R.E.: หัวข้อ Connect (อย่าพูดว่าไม่, Multitasking, ต้อนรับครอบครัว) -->

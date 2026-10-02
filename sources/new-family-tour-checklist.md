@@ -3,7 +3,7 @@ doc_id: new-family-tour-checklist
 title: New Family Tour Checklist SOP (เช็กลิสต์พาทัวร์ครอบครัวใหม่)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1dBEAZRhsXKwIq5rI11ckMMZIbhv4UBde/view
+url: https://drive.google.com/file/d/103nRB7ZFUtsUPcYH-aFVMZTKQN3NQ7Jh/view
 modified: 2026-09-28
 ---
 <!-- chunk: เมื่อไหร่ต้องพาทัวร์ครอบครัวใหม่ และขั้นตอนต้อนรับที่เคาน์เตอร์ -->

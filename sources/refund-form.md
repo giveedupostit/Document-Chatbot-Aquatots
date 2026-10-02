@@ -3,7 +3,7 @@ doc_id: refund-form
 title: แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)
 category: แบบฟอร์ม / การเงิน
 source_type: docx
-url: https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view
+url: https://docs.google.com/document/d/1Taoawh4tRJjHIUGzSccE1rrzYeh1VnaR0E-mny2RWFw/edit
 modified: 2026-09-03
 ---
 <!-- chunk: ข้อมูลที่ต้องกรอกในแบบฟอร์มขอคืนเงิน -->
@@ -49,8 +49,8 @@ modified: 2026-09-03
 <!-- chunk: ข้อมูลติดต่อ Aqua-Tots Swim School Thailand และฉบับเอกสารแบบฟอร์มคืนเงิน -->
 
 แบบฟอร์มขอคืนเงินลูกค้ามี 2 ฉบับในโฟลเดอร์ เนื้อหาเหมือนกัน:
-- [Give แบบฟอร์มขอคืนเงินลูกค้า.docx](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view)
-- [แบบฟอร์มขอคืนเงินลูกค้า.docx](https://drive.google.com/file/d/1MlNL3pdcL7q1-m8vcV47WZleOpWZJtvL/view) — ท้ายเอกสารระบุข้อมูลติดต่อสำนักงาน
+- [Give แบบฟอร์มขอคืนเงินลูกค้า](https://docs.google.com/document/d/10LEJrwyVeN01CjL5UuEyBb95a9DpQA7uHAX61519vpw/edit)
+- [แบบฟอร์มขอคืนเงินลูกค้า](https://docs.google.com/document/d/1Taoawh4tRJjHIUGzSccE1rrzYeh1VnaR0E-mny2RWFw/edit) — ท้ายเอกสารระบุข้อมูลติดต่อสำนักงาน
 
 **AQUA-TOTS SWIM SCHOOL THAILAND**
 - ที่อยู่: เลขที่ 2 ซอยทวีวัฒนา 22 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพฯ 10170

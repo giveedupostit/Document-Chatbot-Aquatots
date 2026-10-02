@@ -3,7 +3,7 @@ doc_id: faq
 title: คำถามที่พบบ่อย (Q&A AT)
 category: FAQ / ข้อมูลลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1pVZRQ6vpJEutW06LGd22p9-ogS39p6RO/view
+url: https://drive.google.com/file/d/1PBlvJ7jvDtQDuFre-J2imC2VfycBW9-O/view
 modified: 2026-09-28
 ---
 <!-- chunk: ขั้นตอนถามคำถามเพื่อแนะนำเลเวลให้น้อง (ตามอายุและความสามารถ) -->

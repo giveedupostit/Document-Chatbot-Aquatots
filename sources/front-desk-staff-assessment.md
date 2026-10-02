@@ -3,7 +3,7 @@ doc_id: front-desk-staff-assessment
 title: Front Desk Staff Assessment (แบบประเมินตำแหน่งพนักงานต้อนรับ)
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1dM-CTXijXutn-3AgJqqrqG_Whb1a5GPp/view
+url: https://drive.google.com/file/d/1WJHSzqtfekBJ3dCquThu3nlfrQQnOxeb/view
 modified: 2026-09-28
 ---
 <!-- chunk: มาตรฐานการประเมิน (ความถี่ตามระดับ) การมาปฏิบัติงาน และ Core Values -->

@@ -3,7 +3,7 @@ doc_id: jd-deck-supervisor
 title: Job Description - Deck Supervisor (หัวหน้าดูแลขอบสระ)
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/13n1DaD2YYcRJhiRB2cX9AV8FMvyrqOED/view
+url: https://drive.google.com/file/d/1TdtETXo-xrGHGt2-ORV-Ps6s7dz3OTU2/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง Deck Supervisor และหน้าที่ความรับผิดชอบ -->

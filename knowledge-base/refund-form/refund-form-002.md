@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 4
 category: "แบบฟอร์ม / การเงิน"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://docs.google.com/document/d/1Taoawh4tRJjHIUGzSccE1rrzYeh1VnaR0E-mny2RWFw/edit"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-03"
 language: "th"
 ---
@@ -26,4 +26,4 @@ language: "th"
 - บันทึก วันที่คืนเงินจริง, จำนวนเงิน (บาท), Transaction No.
 - ลูกค้า/ผู้ปกครองลงชื่อรับทราบว่า "ข้าพเจ้ารับทราบจำนวนเงินและวิธีการคืนเงินตามที่ระบุในแบบฟอร์มนี้" พร้อมวันที่
 
-**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 2/4)
+**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://docs.google.com/document/d/1Taoawh4tRJjHIUGzSccE1rrzYeh1VnaR0E-mny2RWFw/edit) (ส่วนที่ 2/4)

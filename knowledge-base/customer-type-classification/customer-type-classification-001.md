@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1FEjizHaqE535-zglALOZ5Rveleonnphh/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/15zk2gDvVQAAVI3-0ebO2mozyWpQX1wOj/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -50,4 +50,4 @@ language: "th"
 
 (HQ Thai Update / Jan 2026 — เอกสารต้นฉบับมีรายละเอียดเฉพาะประเภทลูกค้าทดลองเรียน)
 
-**แหล่งอ้างอิง:** [SOP การแยกประเภทลูกค้า (ลูกค้าใหม่ / ลูกค้าเก่า / ลูกค้าทดลองเรียน)](https://drive.google.com/file/d/1FEjizHaqE535-zglALOZ5Rveleonnphh/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [SOP การแยกประเภทลูกค้า (ลูกค้าใหม่ / ลูกค้าเก่า / ลูกค้าทดลองเรียน)](https://drive.google.com/file/d/15zk2gDvVQAAVI3-0ebO2mozyWpQX1wOj/view) (ส่วนที่ 1/1)

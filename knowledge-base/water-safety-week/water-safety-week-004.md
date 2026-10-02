@@ -7,8 +7,8 @@ chunk_index: 4
 total_chunks: 5
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -27,4 +27,4 @@ language: "th"
    - **Chlorine free oxidizer** (เช่น Leslie's Fresh 'n Clear): ช่วยปรับสมดุลระดับคลอรีน ใช้เมื่อน้ำในสระขุ่นอย่างเห็นได้ชัด
    - **Bio-Dex** (เช่น Leslie's Bio-Dex Oil Out): ใช้เมื่อเห็นคราบน้ำมันลอยบนผิวน้ำ ซึ่งอาจมาจากน้ำมันบนร่างกาย น้ำยาซักผ้า หรือน้ำยาปรับผ้านุ่ม ต้องใช้ enzyme product ที่กำจัดไขมัน
 
-**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view) (ส่วนที่ 4/5)
+**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view) (ส่วนที่ 4/5)

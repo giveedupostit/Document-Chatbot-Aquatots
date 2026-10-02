@@ -3,7 +3,7 @@ doc_id: new-school-opening
 title: New School Opening Facility Completion Tasks
 category: การเปิดสาขาใหม่
 source_type: docx
-url: https://drive.google.com/file/d/10F8JOalTWeBXEsHVcIKj2DWl-E1mS_Jp/view
+url: https://docs.google.com/document/d/1cyQZv9EHyoJ59KSu8IhnS_hcJNwUtuj7OkfSWLWO2jY/edit
 modified: 2025-09-10
 ---
 <!-- chunk: ภาพรวมการจัดเตรียมสถานที่ก่อนเปิดสาขาใหม่และเอกสารประกอบ -->

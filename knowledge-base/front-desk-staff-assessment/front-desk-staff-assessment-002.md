@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 4
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1dM-CTXijXutn-3AgJqqrqG_Whb1a5GPp/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1WJHSzqtfekBJ3dCquThu3nlfrQQnOxeb/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -31,4 +31,4 @@ language: "th"
 - เรียกชื่อนักเรียนทุกครั้งเมื่อพูดถึง
 - เสนอขายคอร์สเรียนต่อ
 
-**แหล่งอ้างอิง:** [Front Desk Staff Assessment (แบบประเมินตำแหน่งพนักงานต้อนรับ)](https://drive.google.com/file/d/1dM-CTXijXutn-3AgJqqrqG_Whb1a5GPp/view) (ส่วนที่ 2/4)
+**แหล่งอ้างอิง:** [Front Desk Staff Assessment (แบบประเมินตำแหน่งพนักงานต้อนรับ)](https://drive.google.com/file/d/1WJHSzqtfekBJ3dCquThu3nlfrQQnOxeb/view) (ส่วนที่ 2/4)

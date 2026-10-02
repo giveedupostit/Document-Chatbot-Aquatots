@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 8
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -21,4 +21,4 @@ language: "th"
 4. ใน in-service ประจำเดือน แจ้งวันเวลา ชี้แจงว่าทุกคนต้องร่วมมือและจะได้รับมอบหมายหน้าที่ และตั้งเป้าจำนวนผู้เข้าร่วม — **แนะนำ 30% ของนักเรียนทั้งหมด** (เช่น มีนักเรียน 800 คน เป้าคือ 240 คน)
 5. เริ่มสั่งเสื้อเจ้าหน้าที่ Swim Meet (ดู [Q3 Marketing Guide](https://aqua-tots.mediavalet.com/portals/Q3Campaign))
 
-**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view) (ส่วนที่ 2/8)
+**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view) (ส่วนที่ 2/8)

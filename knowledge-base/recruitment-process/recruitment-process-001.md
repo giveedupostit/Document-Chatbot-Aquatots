@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1mi7qHsGAYe5Rax5NsTgeJAPwei12vuc2/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1HxPPCSifqgA9XJoYX9ug-dXSa4DlCaIy/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -36,4 +36,4 @@ language: "th"
 **3. Searching (รวบรวมใบสมัคร)**
 - รวบรวมใบสมัครจากทุกช่องทางไว้ในโฟลเดอร์เดียว ทั้งดิจิทัลและเอกสาร
 
-**แหล่งอ้างอิง:** [Recruitment Process Sheet (ขั้นตอนการสรรหาและว่าจ้างพนักงาน)](https://drive.google.com/file/d/1mi7qHsGAYe5Rax5NsTgeJAPwei12vuc2/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [Recruitment Process Sheet (ขั้นตอนการสรรหาและว่าจ้างพนักงาน)](https://drive.google.com/file/d/1HxPPCSifqgA9XJoYX9ug-dXSa4DlCaIy/view) (ส่วนที่ 1/2)

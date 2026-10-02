@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 4
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1duWiks_u2zMMcDa4wS755Q1c5sI0plTi/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1Su3TZLSnHromgXFFx-_lceK2ESB-aFQ0/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -28,4 +28,4 @@ language: "th"
 5. ลงทะเบียนในระบบ POS (The Hub: New Client Registration)
 6. **ถ้าลูกค้าไม่ลงเรียน:** บันทึกในบัญชี Pike13 แล้วแท็กเข้าแคมเปญอัตโนมัติ **"In-Water Evaluation – Lost"** ใน BrandBot
 
-**แหล่งอ้างอิง:** [In-Water Evaluation (IWE) - Front Desk SOP (การประเมินทักษะในน้ำ / ทดลองเรียน)](https://drive.google.com/file/d/1duWiks_u2zMMcDa4wS755Q1c5sI0plTi/view) (ส่วนที่ 3/4)
+**แหล่งอ้างอิง:** [In-Water Evaluation (IWE) - Front Desk SOP (การประเมินทักษะในน้ำ / ทดลองเรียน)](https://drive.google.com/file/d/1Su3TZLSnHromgXFFx-_lceK2ESB-aFQ0/view) (ส่วนที่ 3/4)

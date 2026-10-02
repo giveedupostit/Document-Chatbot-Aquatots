@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources"
 OUT = ROOT / "knowledge-base"
-DRIVE_FOLDER = "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+DRIVE_FOLDER = "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 
 CHUNK_MARKER = re.compile(r"^<!-- chunk: (.+?) -->\s*$", re.MULTILINE)
 

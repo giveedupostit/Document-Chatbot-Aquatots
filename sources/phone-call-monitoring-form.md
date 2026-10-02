@@ -3,7 +3,7 @@ doc_id: phone-call-monitoring-form
 title: Phone Call Monitoring Form (แบบฟอร์มการตรวจสอบการรับโทรศัพท์ A.Q.U.A)
 category: การขาย / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1BuUBGfpT2f3xwQN70cuuET0gkPVZFrv4/view
+url: https://drive.google.com/file/d/1_HFqMPUFp9E3K8s-LwEi-NBNyMBuX9sY/view
 modified: 2026-09-28
 ---
 <!-- chunk: แบบฟอร์มตรวจสอบการโทรศัพท์และหลัก A.Q.U.A (Approach, Question, Unite, Action) -->

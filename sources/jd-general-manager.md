@@ -3,7 +3,7 @@ doc_id: jd-general-manager
 title: Job Description - General Manager (GM) ผู้จัดการทั่วไป
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/1d4XYjbz0ULqtX7VO592KB2OYDtBNOBad/view
+url: https://drive.google.com/file/d/1b3lkuWEjmzBeg9MCOtOG-awuQb4TatiW/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง GM และหน้าที่ด้านลูกค้า การขาย และการบริการ -->

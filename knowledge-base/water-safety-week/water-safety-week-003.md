@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 5
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -25,4 +25,4 @@ language: "th"
 4. ในการประชุมก่อนเริ่มกะ (pre-shift meeting) ให้แจ้ง AT-WSI บอกผู้ปกครองนักเรียนเลเวล 3–6 ในช่วงฟีดแบ็คหลังเรียน ระบุวันและเวลาที่แน่ชัด และอธิบายว่าบทเรียนอาจต่างออกไปเล็กน้อย ตัวอย่างสคริปต์:
    > "ในการฉลองเดือนแห่งความปลอดภัยทางน้ำประจำชาติ (National Water Safety Month) เรารู้สึกตื่นเต้นมากที่จะจัดกิจกรรม Water Safety Week ตั้งแต่วันที่–วันที่! ในสัปดาห์นี้เราอยากชวนให้ลูก ๆ มีประสบการณ์ว่ายน้ำโดยสวมเสื้อผ้าธรรมดาทับชุดว่ายน้ำ คลาสเรียนอาจต่างออกไปในสัปดาห์นั้นเพราะหลักสูตรจะเน้นความปลอดภัยทางน้ำมากขึ้น ความปลอดภัยของเด็ก ๆ คือสิ่งที่เราให้ความสำคัญที่สุด และเราต้องการให้พวกเขามั่นใจและพร้อมในทุกสถานการณ์ ขอบคุณสำหรับการสนับสนุนโครงการสำคัญนี้"
 
-**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/177y4eaYQL27uE76qGTBJm_nDXdg3oMg3/view) (ส่วนที่ 3/5)
+**แหล่งอ้างอิง:** [Water Safety Week SOP (สัปดาห์ความปลอดภัยทางน้ำ)](https://drive.google.com/file/d/1JaSzvgD6bS_qeyhyslG43go5JJB7H89W/view) (ส่วนที่ 3/5)

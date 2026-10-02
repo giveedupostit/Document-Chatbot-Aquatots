@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1cEC3p1WcT22Zq-UFG89zIAX6Qh8P1QFA/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1EQ1xrvyEm-NeCJriWrMtg64OYC-CvPtb/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -27,4 +27,4 @@ language: "th"
 3. **ใช้คู่มือการสนทนาเพื่อรักษานักเรียน** (Education of the AT Journey During a Drop Conversation – Scripting): รับฟังอย่างตั้งใจ ใช้แนวทางตามสาเหตุ และเสนอทางเลือกหรือแนวทางแก้ไขที่เหมาะสม
    - หมายเหตุ: บางสาเหตุอยู่นอกการควบคุมของโรงเรียน เช่น ย้ายที่อยู่ ปัญหาสุขภาพ เหตุผลส่วนตัว
 
-**แหล่งอ้างอิง:** [Client Withdrawal Process (กระบวนการลาออกของนักเรียน)](https://drive.google.com/file/d/1cEC3p1WcT22Zq-UFG89zIAX6Qh8P1QFA/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [Client Withdrawal Process (กระบวนการลาออกของนักเรียน)](https://drive.google.com/file/d/1EQ1xrvyEm-NeCJriWrMtg64OYC-CvPtb/view) (ส่วนที่ 1/2)

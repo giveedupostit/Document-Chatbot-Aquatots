@@ -3,7 +3,7 @@ doc_id: care-sale
 title: Care Sale (คู่มือการขายและการรักษาลูกค้า)
 category: การขาย / บริการลูกค้า
 source_type: pdf
-url: https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view
+url: https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view
 modified: 2026-09-29
 ---
 <!-- chunk: ภาพรวมกระบวนการ Care Sale และ Retention -->

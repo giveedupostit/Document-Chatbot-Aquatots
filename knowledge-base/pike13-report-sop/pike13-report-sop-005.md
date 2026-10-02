@@ -7,8 +7,8 @@ chunk_index: 5
 total_chunks: 10
 category: "SOP ระบบ Pike13 / Front Desk"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1gGZteQwQigar7uVoBLl4fsU0XixrYFGo/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1c1_Z7YWzWgCf4Cf_Xn1FMPs_xVjIvZ80/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -22,4 +22,4 @@ language: "th"
 
 **หมายเหตุเรื่องตัวเลขวัน:** ตัวเลขขึ้นอยู่กับว่าดึงวันไหนและต้องการดูกี่วันข้างหน้า เช่น ถ้าดึงวันที่ 25 ของเดือนนี้ ต้องใส่ 35 วันข้างหน้า จึงจะครอบคลุมนักเรียนที่เกิดเดือนหน้าทั้งเดือน
 
-**แหล่งอ้างอิง:** [SOP ดึง Report (Pike13)](https://drive.google.com/file/d/1gGZteQwQigar7uVoBLl4fsU0XixrYFGo/view) (ส่วนที่ 5/10)
+**แหล่งอ้างอิง:** [SOP ดึง Report (Pike13)](https://drive.google.com/file/d/1c1_Z7YWzWgCf4Cf_Xn1FMPs_xVjIvZ80/view) (ส่วนที่ 5/10)

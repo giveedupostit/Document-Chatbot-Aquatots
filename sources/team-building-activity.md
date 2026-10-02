@@ -3,7 +3,7 @@ doc_id: team-building-activity
 title: How to Plan and Facilitate a Team-Building Activity (การวางแผนและจัดกิจกรรม Team Building)
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1-1DEdiAnitz5BePP9UzOgwicBd8CLc_Q/view
+url: https://drive.google.com/file/d/1OqdgSormXeoFOkNiRpRCesX7mHorMOOK/view
 modified: 2026-09-28
 ---
 <!-- chunk: ช่วงเวลาที่ควรจัด Team Building และขั้นตอน 8, 6 และ 5 สัปดาห์ก่อน -->

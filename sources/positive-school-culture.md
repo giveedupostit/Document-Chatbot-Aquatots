@@ -3,7 +3,7 @@ doc_id: positive-school-culture
 title: Building A Positive School Culture (การสร้างวัฒนธรรมเชิงบวกในโรงเรียน)
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1iG0I_6VOqoafti6gE0H36CUPvNGvUvUA/view
+url: https://drive.google.com/file/d/19O_F9ZrL9tZT3lAg2y2n1KKC8-HGnOY4/view
 modified: 2026-09-28
 ---
 <!-- chunk: ทำไมต้องสร้างวัฒนธรรมแห่งความเป็นเลิศ, การใช้เวลาร่วมกันนอกงาน และสนุกไปกับทีม -->

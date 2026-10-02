@@ -7,8 +7,8 @@ chunk_index: 5
 total_chunks: 8
 category: "การขาย / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1fn3L-v42W3E4vbouu-FrGWE42OSzF6FL/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/120njkIjVws2Tc-2B9NZennQFf6nysI4W/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -25,4 +25,4 @@ language: "th"
 
 สถานการณ์ฝึก: คุณแม่ที่ลูกอายุ 6 เดือน กังวลเรื่องให้ลูกเรียนว่ายน้ำตั้งแต่เล็กและกลัวลูกไม่พร้อม ผู้ฝึกต้องเข้าใจคุณสมบัติคลาสเลเวล 1 ใช้ข้อมูลครอบครัวอธิบายประโยชน์ และเล่าเรื่องให้ตรงเป้าหมายครอบครัว
 
-**แหล่งอ้างอิง:** [C.A.R.E Sales (คู่มืออบรมกระบวนการขาย C.A.R.E. และ Retention)](https://drive.google.com/file/d/1fn3L-v42W3E4vbouu-FrGWE42OSzF6FL/view) (ส่วนที่ 5/8)
+**แหล่งอ้างอิง:** [C.A.R.E Sales (คู่มืออบรมกระบวนการขาย C.A.R.E. และ Retention)](https://drive.google.com/file/d/120njkIjVws2Tc-2B9NZennQFf6nysI4W/view) (ส่วนที่ 5/8)

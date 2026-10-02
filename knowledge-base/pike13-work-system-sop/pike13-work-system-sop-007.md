@@ -7,8 +7,8 @@ chunk_index: 7
 total_chunks: 11
 category: "SOP ระบบ Pike13 / Front Desk"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1Tpw0ohMNTZGQN4VHv5lWSG27udxw1vD_/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1iSfAyLHbM0oiR6y4Yrb4w9-dKE1BdcrV/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ Step 2 Pike13
 3. กลับไปหน้าชื่อนักเรียน ดูหมวด **Bills** ถ้ายังมีบิลค้าง ให้กด Cancel ทิ้งก่อน
 4. จากนั้นกดซื้อแพลนใหม่ตามขั้นตอนด้านบน
 
-**แหล่งอ้างอิง:** [SOP ระบบการทำงาน (Pike13 / Digipay / ATU)](https://drive.google.com/file/d/1Tpw0ohMNTZGQN4VHv5lWSG27udxw1vD_/view) (ส่วนที่ 7/11)
+**แหล่งอ้างอิง:** [SOP ระบบการทำงาน (Pike13 / Digipay / ATU)](https://drive.google.com/file/d/1iSfAyLHbM0oiR6y4Yrb4w9-dKE1BdcrV/view) (ส่วนที่ 7/11)

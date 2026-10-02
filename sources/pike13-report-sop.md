@@ -3,7 +3,7 @@ doc_id: pike13-report-sop
 title: SOP ดึง Report (Pike13)
 category: SOP ระบบ Pike13 / Front Desk
 source_type: docx
-url: https://drive.google.com/file/d/1gGZteQwQigar7uVoBLl4fsU0XixrYFGo/view
+url: https://drive.google.com/file/d/1c1_Z7YWzWgCf4Cf_Xn1FMPs_xVjIvZ80/view
 modified: 2026-09-29
 ---
 <!-- chunk: ดึงรายชื่อนักเรียนที่ยังไม่เซ็น Waiver (Waiver not signed) -->

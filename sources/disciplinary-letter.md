@@ -3,7 +3,7 @@ doc_id: disciplinary-letter
 title: จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)
 category: วินัย / ความปลอดภัย
 source_type: docx
-url: https://drive.google.com/file/d/1To2-FzCJZcZLr_sivdNARg76ibd1BHm4/view
+url: https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit
 modified: 2025-09-11
 ---
 <!-- chunk: มาตรการทางวินัยกรณีเกิดเหตุ in-water slip -->

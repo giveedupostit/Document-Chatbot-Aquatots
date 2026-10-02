@@ -7,8 +7,8 @@ chunk_index: 7
 total_chunks: 9
 category: "การขาย / บริการลูกค้า"
 source_type: "pdf"
-source_url: "https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -36,4 +36,4 @@ language: "th"
 - โค้ชที่สอนน้องคือใคร
 - วิธีใช้เว็บไซต์เพื่อดูตารางเรียน
 
-**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view) (ส่วนที่ 7/9)
+**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view) (ส่วนที่ 7/9)

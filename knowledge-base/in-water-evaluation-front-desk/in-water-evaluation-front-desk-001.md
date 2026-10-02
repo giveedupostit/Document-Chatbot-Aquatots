@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 4
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1duWiks_u2zMMcDa4wS755Q1c5sI0plTi/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1Su3TZLSnHromgXFFx-_lceK2ESB-aFQ0/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -26,4 +26,4 @@ language: "th"
 4. แท็กบัญชีนักเรียนเข้าแคมเปญอัตโนมัติ **"การประเมินในน้ำ – การจอง"** ใน BrandBot ด้วยแท็ก **"จองสำหรับการประเมินในน้ำ"**
 5. BrandBot จะแจ้ง Front Desk ให้เตือนลูกค้า **24 ชั่วโมง** ก่อน IWE (บทพูดอยู่ใน BrandBot task)
 
-**แหล่งอ้างอิง:** [In-Water Evaluation (IWE) - Front Desk SOP (การประเมินทักษะในน้ำ / ทดลองเรียน)](https://drive.google.com/file/d/1duWiks_u2zMMcDa4wS755Q1c5sI0plTi/view) (ส่วนที่ 1/4)
+**แหล่งอ้างอิง:** [In-Water Evaluation (IWE) - Front Desk SOP (การประเมินทักษะในน้ำ / ทดลองเรียน)](https://drive.google.com/file/d/1Su3TZLSnHromgXFFx-_lceK2ESB-aFQ0/view) (ส่วนที่ 1/4)

@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1PDioxfej1kWoIgMN3Iol9oEmGIOFry5H/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://docs.google.com/document/d/1TJB3xPxph1NSjgngc1d6pTM0ARUoMLMgmL8mmXiLhpU/edit"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-08-21"
 language: "th"
 ---
@@ -33,4 +33,4 @@ language: "th"
 
 (การจัดสรรชั่วโมงลงน้ำของโค้ชกรณีมีโค้ชลา ขาด / August 2026)
 
-**แหล่งอ้างอิง:** [การจัดสรรชั่วโมงลงน้ำของโค้ช กรณีโค้ชลา / ขาด](https://drive.google.com/file/d/1PDioxfej1kWoIgMN3Iol9oEmGIOFry5H/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [การจัดสรรชั่วโมงลงน้ำของโค้ช กรณีโค้ชลา / ขาด](https://docs.google.com/document/d/1TJB3xPxph1NSjgngc1d6pTM0ARUoMLMgmL8mmXiLhpU/edit) (ส่วนที่ 2/2)

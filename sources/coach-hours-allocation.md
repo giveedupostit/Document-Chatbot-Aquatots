@@ -3,7 +3,7 @@ doc_id: coach-hours-allocation
 title: การจัดสรรชั่วโมงลงน้ำของโค้ช กรณีโค้ชลา / ขาด
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1PDioxfej1kWoIgMN3Iol9oEmGIOFry5H/view
+url: https://docs.google.com/document/d/1TJB3xPxph1NSjgngc1d6pTM0ARUoMLMgmL8mmXiLhpU/edit
 modified: 2026-08-21
 ---
 <!-- chunk: วัตถุประสงค์และลำดับการจัดสรรชั่วโมงสอนเมื่อโค้ชลา/ขาด (โค้ชประจำก่อน แล้วจึง Part-time) -->

@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 1
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1nsppdCSbNB2xDp2NGwNHB4avx8NlKiIw/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1EwbZjbFm9Sn6m_F2aaGXt4_emQt6k1OL/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -44,4 +44,4 @@ language: "th"
 
 (Water Watcher Job Description / February 2025)
 
-**แหล่งอ้างอิง:** [Job Description - Water Watcher (ผู้เฝ้าระวังความปลอดภัยขอบสระ)](https://drive.google.com/file/d/1nsppdCSbNB2xDp2NGwNHB4avx8NlKiIw/view) (ส่วนที่ 1/1)
+**แหล่งอ้างอิง:** [Job Description - Water Watcher (ผู้เฝ้าระวังความปลอดภัยขอบสระ)](https://drive.google.com/file/d/1EwbZjbFm9Sn6m_F2aaGXt4_emQt6k1OL/view) (ส่วนที่ 1/1)

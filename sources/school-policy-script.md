@@ -3,7 +3,7 @@ doc_id: school-policy-script
 title: Step การพูดกฎระเบียบและขั้นตอนการแจ้งนโยบายจ่ายเงิน
 category: FAQ / ข้อมูลลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1WsAcT8tCpnEuBXWjuOQIjytOE2twIt6X/view
+url: https://drive.google.com/file/d/1CW-XCeSA-u5bvhTkNlk0K6f05jsb4hzJ/view
 modified: 2026-09-28
 ---
 <!-- chunk: บทพูดนโยบายการลาและการเรียนชดเชย (Make-up) -->

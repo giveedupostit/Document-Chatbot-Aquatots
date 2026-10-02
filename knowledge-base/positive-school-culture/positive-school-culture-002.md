@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 4
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1iG0I_6VOqoafti6gE0H36CUPvNGvUvUA/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/19O_F9ZrL9tZT3lAg2y2n1KKC8-HGnOY4/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -39,4 +39,4 @@ language: "th"
 - คุยติดตามการเติบโตของแต่ละคน
 - เปิดโอกาสให้ทุกคนแสดงความเห็นทั้งช่วงผลดีหรือเมื่อคะแนน NPS เป็นบวก
 
-**แหล่งอ้างอิง:** [Building A Positive School Culture (การสร้างวัฒนธรรมเชิงบวกในโรงเรียน)](https://drive.google.com/file/d/1iG0I_6VOqoafti6gE0H36CUPvNGvUvUA/view) (ส่วนที่ 2/4)
+**แหล่งอ้างอิง:** [Building A Positive School Culture (การสร้างวัฒนธรรมเชิงบวกในโรงเรียน)](https://drive.google.com/file/d/19O_F9ZrL9tZT3lAg2y2n1KKC8-HGnOY4/view) (ส่วนที่ 2/4)

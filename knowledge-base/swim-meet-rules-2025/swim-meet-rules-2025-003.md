@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 6
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1qYN2rXp9rnfieOkGlfmnfY8PzNwmQ7-x/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/17vo1uqvA3crDAxNmwt96DzpvXdCNeRZI/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -35,4 +35,4 @@ language: "th"
 - วิธีว่าย: เมื่อนกหวีดดัง ไต่กำแพงไปเส้นชัย
 - จับเวลา: หยุดเมื่อมือทั้งสองข้างเลยเส้นชัย
 
-**แหล่งอ้างอิง:** [ระเบียบการแข่งขัน Swim Meet 2025 (สาขาทวีวัฒนา)](https://drive.google.com/file/d/1qYN2rXp9rnfieOkGlfmnfY8PzNwmQ7-x/view) (ส่วนที่ 3/6)
+**แหล่งอ้างอิง:** [ระเบียบการแข่งขัน Swim Meet 2025 (สาขาทวีวัฒนา)](https://drive.google.com/file/d/17vo1uqvA3crDAxNmwt96DzpvXdCNeRZI/view) (ส่วนที่ 3/6)

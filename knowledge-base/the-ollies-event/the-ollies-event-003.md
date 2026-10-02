@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 3
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1ugN4wa57ZRcjrYE5qmGe_3MqmXRqe9V0/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1NESQC9p7mVALlOeGlZe6WGBCOYO72oRg/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -39,4 +39,4 @@ language: "th"
 
 (The Ollies Event / May 2025)
 
-**แหล่งอ้างอิง:** [The Ollies Event SOP (งานมอบรางวัลประจำปีให้ทีมงาน)](https://drive.google.com/file/d/1ugN4wa57ZRcjrYE5qmGe_3MqmXRqe9V0/view) (ส่วนที่ 3/3)
+**แหล่งอ้างอิง:** [The Ollies Event SOP (งานมอบรางวัลประจำปีให้ทีมงาน)](https://drive.google.com/file/d/1NESQC9p7mVALlOeGlZe6WGBCOYO72oRg/view) (ส่วนที่ 3/3)

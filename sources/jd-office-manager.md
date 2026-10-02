@@ -3,7 +3,7 @@ doc_id: jd-office-manager
 title: Job Description - Office Manager (OM) ผู้จัดการสำนักงาน
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/1EI_zaU7mMKpQwyQmsYhR8eaFW8UODimY/view
+url: https://drive.google.com/file/d/14qD5BtFLt8oMKfdkUEnGK-a9z3GN4iBh/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง Office Manager (OM) และหน้าที่ความรับผิดชอบ -->

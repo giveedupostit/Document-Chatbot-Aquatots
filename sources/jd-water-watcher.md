@@ -3,7 +3,7 @@ doc_id: jd-water-watcher
 title: Job Description - Water Watcher (ผู้เฝ้าระวังความปลอดภัยขอบสระ)
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/1nsppdCSbNB2xDp2NGwNHB4avx8NlKiIw/view
+url: https://drive.google.com/file/d/1EwbZjbFm9Sn6m_F2aaGXt4_emQt6k1OL/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง Water Watcher หน้าที่ และคุณสมบัติ -->

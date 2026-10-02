@@ -7,8 +7,8 @@ chunk_index: 4
 total_chunks: 6
 category: "SOP ความปลอดภัย / การจัดการเหตุการณ์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1wbhfii5uMMwKiJN62GOg96_mO7V7IlBX/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://docs.google.com/document/d/12wy6yQTsW44uZPepjfXOH3WPqjPMsCNelZzUOSpc6Zw/edit"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -19,4 +19,4 @@ language: "th"
 - **พักงาน 1–3 เดือน** (ขึ้นกับความร้ายแรงของเหตุการณ์และผลการสอบสวนภายใน)
 - ต้องผ่านการ **อบรมและประเมินใหม่** ก่อนกลับมาสอน เพื่อให้มั่นใจว่าสามารถปฏิบัติหน้าที่ได้อย่างปลอดภัย
 
-**แหล่งอ้างอิง:** [TH Communication and Incident Management](https://drive.google.com/file/d/1wbhfii5uMMwKiJN62GOg96_mO7V7IlBX/view) (ส่วนที่ 4/6)
+**แหล่งอ้างอิง:** [TH Communication and Incident Management](https://docs.google.com/document/d/12wy6yQTsW44uZPepjfXOH3WPqjPMsCNelZzUOSpc6Zw/edit) (ส่วนที่ 4/6)

@@ -3,7 +3,7 @@ doc_id: jd-aquatic-manager
 title: Job Description - Aquatic Manager (AM) ผู้จัดการฝ่ายสระ
 category: ตำแหน่งงาน / Job Description
 source_type: docx
-url: https://drive.google.com/file/d/17jNTGUCpF90nth-6o9_YeI8oh8UOWJJG/view
+url: https://drive.google.com/file/d/1DkJoxXAaon_kMiMbwTjf3PD42zcrbcO3/view
 modified: 2026-09-28
 ---
 <!-- chunk: สรุปตำแหน่ง AM และหน้าที่ด้านบริการลูกค้าและการขาย -->

@@ -7,8 +7,8 @@ chunk_index: 4
 total_chunks: 8
 category: "กิจกรรม / อีเวนต์"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -30,4 +30,4 @@ language: "th"
 - สร้าง Facebook Event และใส่รายละเอียดในช่องอธิบาย (The Hub > Facebook Event Best Practices)
 - จัดตารางเจ้าหน้าที่ตามตารางเวลากิจกรรม รวมเวลาเตรียมงานและทำความสะอาด และครอบคลุมทุกบทบาท (The Hub > Swim Meet Staff Roles and Responsibilities)
 
-**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1Jd7jksDBI5Ny5Gx9LwAQrQL8c2DtUlbb/view) (ส่วนที่ 4/8)
+**แหล่งอ้างอิง:** [Swim Meet Process Sheet (ขั้นตอนการจัดกิจกรรม Swim Meet)](https://drive.google.com/file/d/1SuFwo-4MpxM71W4GgsufM4XDURN9K29x/view) (ส่วนที่ 4/8)

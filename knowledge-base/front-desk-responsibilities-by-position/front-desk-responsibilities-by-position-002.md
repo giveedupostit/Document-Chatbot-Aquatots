@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 3
 category: "ตำแหน่งงาน / Job Description"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/18ZHkwtER2_j_PMctp7y9FedqrOwYuZTu/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1INksEuhM-BN3g2SaVXvhTQgfiMo7bmRl/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -40,4 +40,4 @@ language: "th"
 - จัดตารางเรียนชดเชย
 - เก็บเงินค่าสินค้าและของทานเล่น
 
-**แหล่งอ้างอิง:** [Front Desk Staff Responsibilities by Positions (หน้าที่ AT-FDS ตามตำแหน่ง)](https://drive.google.com/file/d/18ZHkwtER2_j_PMctp7y9FedqrOwYuZTu/view) (ส่วนที่ 2/3)
+**แหล่งอ้างอิง:** [Front Desk Staff Responsibilities by Positions (หน้าที่ AT-FDS ตามตำแหน่ง)](https://drive.google.com/file/d/1INksEuhM-BN3g2SaVXvhTQgfiMo7bmRl/view) (ส่วนที่ 2/3)

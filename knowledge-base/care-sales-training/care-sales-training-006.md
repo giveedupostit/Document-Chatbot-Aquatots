@@ -7,8 +7,8 @@ chunk_index: 6
 total_chunks: 8
 category: "การขาย / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1fn3L-v42W3E4vbouu-FrGWE42OSzF6FL/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/120njkIjVws2Tc-2B9NZennQFf6nysI4W/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 
 สถานการณ์ฝึก: ปู่ย่าตายายโทรมา หลานประเมินเป็นเลเวล 3 แต่คิดว่าราคาใกล้เคียงสระหมู่บ้านที่สอนฟรีสไตล์ได้เลย ผู้ฝึกต้องใช้ 3 ขั้นตอนอย่างมั่นใจ สงบ และให้ข้อมูลครบ
 
-**แหล่งอ้างอิง:** [C.A.R.E Sales (คู่มืออบรมกระบวนการขาย C.A.R.E. และ Retention)](https://drive.google.com/file/d/1fn3L-v42W3E4vbouu-FrGWE42OSzF6FL/view) (ส่วนที่ 6/8)
+**แหล่งอ้างอิง:** [C.A.R.E Sales (คู่มืออบรมกระบวนการขาย C.A.R.E. และ Retention)](https://drive.google.com/file/d/120njkIjVws2Tc-2B9NZennQFf6nysI4W/view) (ส่วนที่ 6/8)

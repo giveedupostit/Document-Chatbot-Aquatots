@@ -7,8 +7,8 @@ chunk_index: 9
 total_chunks: 9
 category: "การขาย / บริการลูกค้า"
 source_type: "pdf"
-source_url: "https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -27,4 +27,4 @@ language: "th"
 - พิจารณาว่ามีอะไรที่ต้องแนะนำลูกค้าเพิ่มบ้าง
 - แจ้งถึงสิ่งที่น้อง ๆ จะได้รับในอนาคต เพื่อให้ครอบครัวมีเป้าหมาย
 
-**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view) (ส่วนที่ 9/9)
+**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view) (ส่วนที่ 9/9)

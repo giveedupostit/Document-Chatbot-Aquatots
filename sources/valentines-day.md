@@ -3,7 +3,7 @@ doc_id: valentines-day
 title: Valentine's Day SOP (กิจกรรมวันวาเลนไทน์)
 category: กิจกรรม / อีเวนต์
 source_type: docx
-url: https://drive.google.com/file/d/1knoYuFOLjBCD2FOYN3_gNvi1Wb-YBrWY/view
+url: https://drive.google.com/file/d/1SbJcUOJXNvh5SHH5RsutG7QkCWwSxti1/view
 modified: 2026-09-28
 ---
 <!-- chunk: ภาพรวมกิจกรรมวันวาเลนไทน์และเอกสารอ้างอิง -->

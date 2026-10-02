@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 3
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1_xR9qYFu-7lGMLTSGN50fUSkU7xpmdCh/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1KJSXAKlMYiiuqPKLa7HoaPGiltgZMwf4/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -38,4 +38,4 @@ language: "th"
 - ตรวจว่าประตูทุกบานล็อกแล้ว ปิดไฟ
 - ตั้งระบบ Alarm และรอเสียงยืนยันว่าทำงาน
 
-**แหล่งอ้างอิง:** [Swim School Daily Task List Form (รายการงานประจำวันของโรงเรียน)](https://drive.google.com/file/d/1_xR9qYFu-7lGMLTSGN50fUSkU7xpmdCh/view) (ส่วนที่ 2/3)
+**แหล่งอ้างอิง:** [Swim School Daily Task List Form (รายการงานประจำวันของโรงเรียน)](https://drive.google.com/file/d/1KJSXAKlMYiiuqPKLa7HoaPGiltgZMwf4/view) (ส่วนที่ 2/3)

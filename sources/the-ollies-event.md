@@ -3,7 +3,7 @@ doc_id: the-ollies-event
 title: The Ollies Event SOP (งานมอบรางวัลประจำปีให้ทีมงาน)
 category: การบริหารบุคลากร / โค้ชชิ่ง
 source_type: docx
-url: https://drive.google.com/file/d/1ugN4wa57ZRcjrYE5qmGe_3MqmXRqe9V0/view
+url: https://drive.google.com/file/d/1NESQC9p7mVALlOeGlZe6WGBCOYO72oRg/view
 modified: 2026-09-28
 ---
 <!-- chunk: The Ollies คืออะไร และการวางแผน 11–10 สัปดาห์ก่อนงาน -->

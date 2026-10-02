@@ -7,8 +7,8 @@ chunk_index: 2
 total_chunks: 2
 category: "Front Desk / บริการลูกค้า"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1TEiG5D8sFaunA-gUlmhbtXLRI5h3RPVu/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/1lcPUSRlnyYCihHzSaZihdWRFwfBW40dM/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 
 (10 Minute Check-In SOP / November 2025)
 
-**แหล่งอ้างอิง:** [10-Minute Check-In SOP (การเช็กอินผู้ปกครองนาทีที่ 10)](https://drive.google.com/file/d/1TEiG5D8sFaunA-gUlmhbtXLRI5h3RPVu/view) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [10-Minute Check-In SOP (การเช็กอินผู้ปกครองนาทีที่ 10)](https://drive.google.com/file/d/1lcPUSRlnyYCihHzSaZihdWRFwfBW40dM/view) (ส่วนที่ 2/2)

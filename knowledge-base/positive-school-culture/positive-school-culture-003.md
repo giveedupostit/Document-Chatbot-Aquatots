@@ -7,8 +7,8 @@ chunk_index: 3
 total_chunks: 4
 category: "การบริหารบุคลากร / โค้ชชิ่ง"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1iG0I_6VOqoafti6gE0H36CUPvNGvUvUA/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://drive.google.com/file/d/19O_F9ZrL9tZT3lAg2y2n1KKC8-HGnOY4/view"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2026-09-28"
 language: "th"
 ---
@@ -38,4 +38,4 @@ language: "th"
 - ถามว่าผู้บริหารช่วยพัฒนาหรือเตรียมตำแหน่งถัดไปได้อย่างไร
 - อบรมภาวะผู้นำหรือ Book Club ทุกไตรมาส แผนพัฒนารายบุคคลสำหรับผู้ที่อยากเป็นผู้นำ และสนับสนุนการอบรม Global Leadership
 
-**แหล่งอ้างอิง:** [Building A Positive School Culture (การสร้างวัฒนธรรมเชิงบวกในโรงเรียน)](https://drive.google.com/file/d/1iG0I_6VOqoafti6gE0H36CUPvNGvUvUA/view) (ส่วนที่ 3/4)
+**แหล่งอ้างอิง:** [Building A Positive School Culture (การสร้างวัฒนธรรมเชิงบวกในโรงเรียน)](https://drive.google.com/file/d/19O_F9ZrL9tZT3lAg2y2n1KKC8-HGnOY4/view) (ส่วนที่ 3/4)

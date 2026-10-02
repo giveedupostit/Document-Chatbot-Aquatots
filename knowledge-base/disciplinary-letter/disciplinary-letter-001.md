@@ -7,8 +7,8 @@ chunk_index: 1
 total_chunks: 2
 category: "วินัย / ความปลอดภัย"
 source_type: "docx"
-source_url: "https://drive.google.com/file/d/1To2-FzCJZcZLr_sivdNARg76ibd1BHm4/view"
-source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+source_url: "https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit"
+source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
 last_modified: "2025-09-11"
 language: "th"
 ---
@@ -24,4 +24,4 @@ language: "th"
 2. ให้ **พักงานเป็นเวลา 1 เดือนเต็ม** โดยไม่อาจยกเว้นหรือเลื่อนกำหนดได้
 3. ก่อนกลับมาปฏิบัติหน้าที่ พนักงานจะต้อง **เข้ารับการอบรมด้านความปลอดภัยและผ่านการประเมินซ้ำจากสำนักงานใหญ่** หากไม่ผ่านการประเมิน จะไม่สามารถกลับมาปฏิบัติหน้าที่ได้
 
-**แหล่งอ้างอิง:** [จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)](https://drive.google.com/file/d/1To2-FzCJZcZLr_sivdNARg76ibd1BHm4/view) (ส่วนที่ 1/2)
+**แหล่งอ้างอิง:** [จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)](https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit) (ส่วนที่ 1/2)

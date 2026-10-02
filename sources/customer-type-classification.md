@@ -3,7 +3,7 @@ doc_id: customer-type-classification
 title: SOP การแยกประเภทลูกค้า (ลูกค้าใหม่ / ลูกค้าเก่า / ลูกค้าทดลองเรียน)
 category: Front Desk / บริการลูกค้า
 source_type: docx
-url: https://drive.google.com/file/d/1FEjizHaqE535-zglALOZ5Rveleonnphh/view
+url: https://drive.google.com/file/d/15zk2gDvVQAAVI3-0ebO2mozyWpQX1wOj/view
 modified: 2026-09-28
 ---
 <!-- chunk: ลูกค้าทดลองเรียน (INW): คุณสมบัติ การระบุในระบบ และสิ่งที่ต้องอธิบาย -->

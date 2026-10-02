@@ -3,7 +3,7 @@ doc_id: makeup-donation-drive
 title: Make-Up Lesson Donation Drive SOP (กิจกรรมบริจาคคลาสเรียนเมคอัพ)
 category: กิจกรรม / อีเวนต์
 source_type: docx
-url: https://drive.google.com/file/d/1U3-jiNWO0ggIiLyFhm3MXGrxVcUtZv3X/view
+url: https://drive.google.com/file/d/1OMa70r0_RkQ9QwMk2Ijhc2zLNwEXs3Ep/view
 modified: 2026-09-29
 ---
 <!-- chunk: ภาพรวมกิจกรรม Make-Up Donation Drive และเอกสารอ้างอิง -->
