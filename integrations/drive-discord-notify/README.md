@@ -19,9 +19,10 @@
 
 1. เปิด <https://script.google.com> ด้วยบัญชี Google ที่เข้าโฟลเดอร์ได้ → **New project**
 2. ลบโค้ดเดิม แล้ววางโค้ดทั้งหมดจาก `Code.gs` → กด **Save**
-3. เมนูซ้าย **Project Settings** (รูปเฟือง) → เลื่อนลงไปที่ **Script Properties** → **Add script property**
-   - Property: `DISCORD_WEBHOOK_URL`
-   - Value: URL ที่ copy จากข้อ 1
+3. ใส่ Webhook URL วิธีใดวิธีหนึ่ง
+   - **ง่ายสุด:** แก้บรรทัด `const DISCORD_WEBHOOK_URL = '';` (บรรทัดที่ 18) ใส่ URL ใน `''` แล้ว Save
+   - **ปลอดภัยกว่า:** เมนูซ้าย **Project Settings** → **Script Properties** → **Add script property**
+     Property `DISCORD_WEBHOOK_URL`, Value = URL (ไม่ต้องแก้โค้ด และ URL ไม่ติดไปถ้าแชร์โค้ด)
 4. กลับไปหน้า **Editor** เลือกฟังก์ชัน `setup` ด้านบน แล้วกด **Run**
 5. ครั้งแรก Google จะขออนุญาต → **Review permissions** → เลือกบัญชี → **Advanced** → **Go to … (unsafe)** → **Allow**
    (ขึ้นคำเตือนเพราะเป็นสคริปต์ที่เราสร้างเอง ไม่ได้ผ่านการรับรองจาก Google)

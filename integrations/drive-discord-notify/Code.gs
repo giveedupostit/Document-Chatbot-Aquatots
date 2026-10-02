@@ -13,7 +13,9 @@ const FOLDER_ID = '17TwLCihdnOmxw03F2joAI-EcPpwSBwub';
 const CHECK_EVERY_MINUTES = 10;     // 1, 5, 10, 15 หรือ 30
 const NOTIFY_UPDATES = true;        // true = แจ้งเตือนเมื่อมีการแก้ไขไฟล์เดิมด้วย
 const INCLUDE_SUBFOLDERS = true;
-// Discord Webhook URL เก็บใน Script Properties ชื่อ DISCORD_WEBHOOK_URL (ไม่ต้องใส่ในโค้ด)
+// ใส่ Discord Webhook URL ในเครื่องหมาย '' ด้านล่าง
+// (หรือเว้นว่างไว้ แล้วตั้งใน Project Settings > Script Properties ชื่อ DISCORD_WEBHOOK_URL แทน)
+const DISCORD_WEBHOOK_URL = '';
 
 const SEEN_PREFIX = 'seen_';
 
@@ -126,8 +128,8 @@ function embed_(f, label, color) {
 }
 
 function getWebhookUrl_() {
-  const url = PropertiesService.getScriptProperties().getProperty('DISCORD_WEBHOOK_URL');
-  if (!url) throw new Error('ยังไม่ได้ตั้ง Script Property ชื่อ DISCORD_WEBHOOK_URL');
+  const url = PropertiesService.getScriptProperties().getProperty('DISCORD_WEBHOOK_URL') || DISCORD_WEBHOOK_URL;
+  if (!url) throw new Error('ยังไม่ได้ใส่ DISCORD_WEBHOOK_URL (ในโค้ดหรือ Script Properties)');
   return url;
 }
 
