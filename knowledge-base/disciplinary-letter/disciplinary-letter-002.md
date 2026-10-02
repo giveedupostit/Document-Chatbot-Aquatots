@@ -6,9 +6,9 @@ section: "บรรทัดฐานทุกสาขา การทบทว
 chunk_index: 2
 total_chunks: 2
 category: "วินัย / ความปลอดภัย"
-source_type: "google-doc"
-source_url: "https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit"
-source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
+source_type: "docx"
+source_url: "https://drive.google.com/file/d/1To2-FzCJZcZLr_sivdNARg76ibd1BHm4/view"
+source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
 last_modified: "2025-09-11"
 language: "th"
 ---
@@ -22,4 +22,4 @@ language: "th"
 
 ลงนามโดย นางสาวทิพย์รัตน์ สิทธิมนต์อำนวย, Master Developer, Aqua-Tots Swim Schools Thailand & Southeast-Asia
 
-**แหล่งอ้างอิง:** [จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)](https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit) (ส่วนที่ 2/2)
+**แหล่งอ้างอิง:** [จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)](https://drive.google.com/file/d/1To2-FzCJZcZLr_sivdNARg76ibd1BHm4/view) (ส่วนที่ 2/2)

@@ -6,9 +6,9 @@ section: "ข้อมูลที่ต้องกรอกในแบบฟ�
 chunk_index: 1
 total_chunks: 3
 category: "แบบฟอร์ม / การเงิน"
-source_type: "google-doc"
-source_url: "https://docs.google.com/document/d/10LEJrwyVeN01CjL5UuEyBb95a9DpQA7uHAX61519vpw/edit"
-source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
+source_type: "docx"
+source_url: "https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view"
+source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
 last_modified: "2026-09-03"
 language: "th"
 ---
@@ -34,4 +34,4 @@ language: "th"
 - ชื่อบัญชี, ธนาคาร, เลขที่บัญชี
 - ☐ แนบหน้าบัญชีธนาคารลูกค้า (กรณีโอนเงินคืน)
 
-**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://docs.google.com/document/d/10LEJrwyVeN01CjL5UuEyBb95a9DpQA7uHAX61519vpw/edit) (ส่วนที่ 1/3)
+**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 1/3)

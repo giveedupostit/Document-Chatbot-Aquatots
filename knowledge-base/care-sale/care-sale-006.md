@@ -7,8 +7,8 @@ chunk_index: 6
 total_chunks: 9
 category: "การขาย / บริการลูกค้า"
 source_type: "pdf"
-source_url: "https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view"
-source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
+source_url: "https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view"
+source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
 last_modified: "2026-09-29"
 language: "th"
 ---
@@ -33,4 +33,4 @@ language: "th"
 2. **ตรวจสอบความถูกต้อง (Validate)** – ตอบกลับโดยแสดงความเห็นด้วยกับสิ่งที่ผู้ปกครองพูด เช่น "ดีเลยค่ะคุณแม่ การเปรียบเทียบข้อเสนอของแต่ละที่ดีมากเลยค่ะ"
 3. **ให้ข้อมูลใหม่** – แม้ผู้ปกครองกำลังจะกลับ เรายังคงให้ความช่วยเหลือต่อไป เช่น "หากคุณแม่พาน้องไปเรียนแล้ว มีฟีดแบคยังไงมาแชร์ให้แอดมินทราบได้เลยนะคะ หรือถ้าลองแล้วโอเคกับการสอนของ Aqua-Tots มากกว่า มาจองตารางเรียนกับแอดมินได้ตลอดเวลาเลยนะคะ โรงเรียนเราเปิดทุกวัน มีคลาสเรียนรองรับเยอะมากเลยค่ะ"
 
-**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view) (ส่วนที่ 6/9)
+**แหล่งอ้างอิง:** [Care Sale (คู่มือการขายและการรักษาลูกค้า)](https://drive.google.com/file/d/1uBu5h_1vp30UPGc6194qhFyX0lvtI5gz/view) (ส่วนที่ 6/9)

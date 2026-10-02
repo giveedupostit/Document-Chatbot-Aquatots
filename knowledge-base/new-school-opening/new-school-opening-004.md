@@ -6,9 +6,9 @@ section: "Day 3: Pool Room (ห้องสระว่ายน้ำ)"
 chunk_index: 4
 total_chunks: 5
 category: "การเปิดสาขาใหม่"
-source_type: "google-doc"
-source_url: "https://docs.google.com/document/d/1cyQZv9EHyoJ59KSu8IhnS_hcJNwUtuj7OkfSWLWO2jY/edit"
-source_folder: "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
+source_type: "docx"
+source_url: "https://drive.google.com/file/d/10F8JOalTWeBXEsHVcIKj2DWl-E1mS_Jp/view"
+source_folder: "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
 last_modified: "2025-09-10"
 language: "th"
 ---
@@ -26,4 +26,4 @@ language: "th"
 - ☐ ชุดอุปกรณ์ทดสอบสารเคมี
 - ☐ ตารางทำความสะอาด (ดู [Daily Aquatic Checklist.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EcjrBhlTl31OjVK-1BErfowBOIAGB5ijBR49rccgLIn4Xg?e=RDc9n0))
 
-**แหล่งอ้างอิง:** [New School Opening Facility Completion Tasks](https://docs.google.com/document/d/1cyQZv9EHyoJ59KSu8IhnS_hcJNwUtuj7OkfSWLWO2jY/edit) (ส่วนที่ 4/5)
+**แหล่งอ้างอิง:** [New School Opening Facility Completion Tasks](https://drive.google.com/file/d/10F8JOalTWeBXEsHVcIKj2DWl-E1mS_Jp/view) (ส่วนที่ 4/5)

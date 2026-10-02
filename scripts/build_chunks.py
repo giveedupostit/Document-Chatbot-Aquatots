@@ -1,480 +1,40 @@
 """Generate chunked Markdown files for the chatbot knowledge base.
 
-Each chunk is written to knowledge-base/<doc_id>/<doc_id>-NNN.md with YAML
+Each source document lives in sources/<doc_id>.md: a simple front matter block
+(doc_id, title, category, source_type, url, modified) followed by sections
+separated by `<!-- chunk: Section title -->` markers.
+
+Every section is written to knowledge-base/<doc_id>/<doc_id>-NNN.md with YAML
 front matter (including the source Google Drive link) so a RAG pipeline can
 cite where the answer came from. Run: python scripts/build_chunks.py
 """
 
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SOURCES = ROOT / "sources"
 OUT = ROOT / "knowledge-base"
-DRIVE_FOLDER = "https://drive.google.com/drive/folders/17TwLCihdnOmxw03F2joAI-EcPpwSBwub"
-
-DOCS = [
-    {
-        "doc_id": "incident-management",
-        "title": "TH Communication and Incident Management",
-        "category": "SOP ความปลอดภัย / การจัดการเหตุการณ์",
-        "source_type": "google-doc",
-        "url": "https://docs.google.com/document/d/12wy6yQTsW44uZPepjfXOH3WPqjPMsCNelZzUOSpc6Zw/edit",
-        "modified": "2026-09-29",
-        "chunks": [
-            ("วัตถุประสงค์และขอบเขตการใช้งาน", """\
-## วัตถุประสงค์ (Objective)
-
-เพื่อกำหนดขั้นตอนการสื่อสารและการจัดการอย่างเป็นระบบ หากเกิดเหตุการณ์ไม่ปกติในโรงเรียน หรือเกิดอุบัติเหตุในระหว่างการเรียนการสอน โดยมุ่งเน้นให้:
-
-- รักษาความปลอดภัยของนักเรียนและบุคลากรเป็นอันดับแรก
-- ลดผลกระทบทางกฎหมายและชื่อเสียงของโรงเรียน
-- รักษาความเชื่อมั่นและความพึงพอใจของผู้ปกครอง
-
-## ขอบเขตการใช้งาน (Scope)
-
-SOP นี้ใช้กับ **ทุกสาขาแฟรนไชส์ Aqua-Tots** และบุคลากรทุกตำแหน่ง ทั้งโค้ช ครูผู้สอน เจ้าหน้าที่ประจำสาขา และผู้จัดการ"""),
-            ("ขั้นตอนที่ 1: การจัดการทันทีในสถานที่เกิดเหตุ", """\
-เมื่อเกิดเหตุการณ์ไม่ปกติหรืออุบัติเหตุระหว่างการเรียนการสอน ให้ปฏิบัติทันทีดังนี้:
-
-- **ครูผู้สอน / โค้ช** ต้องรีบช่วยเหลือนักเรียนตามขั้นตอน **First Aid และ CPR** ที่ได้รับการอบรมมา
-- **แจ้งหัวหน้างาน / Aquatic Manager ทันที**
-- **บันทึกรายละเอียดเหตุการณ์ทันที** (เวลา, ผู้ที่เกี่ยวข้อง, การปฐมพยาบาลที่ทำ, อุปกรณ์ที่ใช้ ฯลฯ)"""),
-            ("ขั้นตอนที่ 2: การสื่อสารกับผู้ปกครอง", """\
-- **ผู้จัดการสาขา (Owner/General Manager)** ต้องเป็นผู้โทรแจ้งและขอโทษผู้ปกครองด้วยตนเอง
-- เน้น **การแสดงความรับผิดชอบ** รับฟัง และอธิบายขั้นตอนที่โรงเรียนได้ทำเพื่อช่วยเหลือทันที
-- **ข้อเสนอเยียวยา**: อาจมีการเปลี่ยนโค้ช จัดคอร์สเรียนฟรี หรือมาตรการอื่น ๆ ที่สาขาสามารถทำได้โดยไม่กระทบต่อความปลอดภัย"""),
-            ("ขั้นตอนที่ 3: การจัดการบุคลากร (Coach Action)", """\
-- โค้ชที่เกี่ยวข้องกับเหตุการณ์ **หยุดปฏิบัติหน้าที่ทันที**
-- **พักงาน 1–3 เดือน** (ขึ้นกับความร้ายแรงของเหตุการณ์และผลการสอบสวนภายใน)
-- ต้องผ่านการ **อบรมและประเมินใหม่** ก่อนกลับมาสอน เพื่อให้มั่นใจว่าสามารถปฏิบัติหน้าที่ได้อย่างปลอดภัย"""),
-            ("ขั้นตอนที่ 4: การสื่อสารภายในและภายนอก", """\
-- **ห้ามบุคลากรให้ข้อมูลกับสื่อ / โซเชียลมีเดีย** โดยพลการ
-- การสื่อสารกับภายนอก (เช่น สื่อมวลชน หน่วยงานราชการ) ให้เป็นหน้าที่ของ **Owner หรือ HQ ที่ได้รับมอบหมายเท่านั้น**
-- ใช้ข้อความที่ **เป็นข้อเท็จจริง** เท่านั้น หลีกเลี่ยงการใช้ถ้อยคำที่ตีความได้หลายความหมายหรือนำไปสู่ความผิดทางกฎหมาย"""),
-            ("ขั้นตอนที่ 5: การสอบสวนและป้องกันซ้ำ, เอกสาร และการทบทวน SOP", """\
-## การสอบสวนและป้องกันซ้ำ
-
-- **ตั้งคณะกรรมการสอบสวนภายใน** ภายใน 48 ชั่วโมงหลังเหตุการณ์
-- **บันทึกผลการสอบสวน** และแนวทางแก้ไขป้องกันไม่ให้เกิดซ้ำ
-- **อบรมทีมงานทุกคน** เพื่อเน้นย้ำมาตรการความปลอดภัย
-
-## บันทึกและเอกสาร (Documentation)
-
-- แบบฟอร์มบันทึกเหตุการณ์ (Incident Report Form)
-- แบบฟอร์มการสื่อสารกับผู้ปกครอง
-- แบบฟอร์มการประเมินโค้ชก่อนกลับมาปฏิบัติหน้าที่
-
-## การทบทวน (Review)
-
-SOP นี้ต้องได้รับการทบทวนอย่างน้อยปีละ 1 ครั้ง หรือเมื่อมีเหตุการณ์สำคัญ เพื่อให้มั่นใจว่ายังสอดคล้องกับกฎหมายและมาตรฐานความปลอดภัย"""),
-        ],
-    },
-    {
-        "doc_id": "pike13-report-sop",
-        "title": "SOP ดึง Report (Pike13)",
-        "category": "SOP ระบบ Pike13 / Front Desk",
-        "source_type": "docx",
-        "url": "https://drive.google.com/file/d/1c1_Z7YWzWgCf4Cf_Xn1FMPs_xVjIvZ80/view",
-        "modified": "2026-09-29",
-        "note": "HQ Thai Update / Jan 2026",
-        "chunks": [
-            ("ดึงรายชื่อนักเรียนที่ยังไม่เซ็น Waiver (Waiver not signed)", """\
-ใช้ดึงรายชื่อนักเรียนที่ยังไม่เซ็นรับทราบกฎระเบียบในระบบ Pike13
-
-**ขั้นตอนดึง Report**
-
-1. Click **Reporting > Clients & Staff > Clients With No Signed Waivers**
-2. **Details > Filters** จะเจอกล่องที่ตั้ง Filters ไว้อยู่แล้ว ให้กด **+New filters** เลื่อนหา **Has membership? > is > Yes**
-3. **+New filters > Account managers > Not empty**
-4. กด **Finish**
-
-Report ที่ได้จะเป็นรายชื่อน้องทุกคนที่ยังไม่ได้กดเซ็นยินยอมรับกฎระเบียบของโรงเรียน
-
-**ขั้นตอนตรวจสอบและบันทึกการเซ็น**
-
-1. เช็คควบคู่กับใบสมัคร ให้แน่ใจว่าผู้ปกครองได้เซ็นรับทราบกฎระเบียบด้านหลังใบสมัครครบทุกข้อ
-2. คลิกที่ชื่อน้องใน Report
-3. ช่องบนสุดซ้ายมือ **Important notices** จะขึ้นลิงก์ชื่อนักเรียน พร้อมข้อความ **"hasn't completed a waiver"** กดลิงก์เข้าไปจะมี 3 ตัวเลือก:
-   - กล่องแรก: เซ็นผ่านหน้าเว็บไซต์ Pike13
-   - กล่องที่สอง: เซ็นผ่าน E-mail
-   - กล่องที่สาม: เซ็นแบบ offline ในกระดาษหรือในใบสมัคร
-4. หากเช็คใบสมัครเรียบร้อยแล้ว ให้กด **กล่องที่สาม** ได้เลย"""),
-            ("เช็คนักเรียนที่มาทดลองเรียนย้อนหลัง (In-water evaluation)", """\
-1. กดกราฟ Report
-2. Click **Reporting > Clients & Staff > Enrollments > Details > Filters**
-3. Click **New filters > Paid with > contains > evaluation**
-4. Click **New filters > Service date > is between > Jump to…** แล้วเปลี่ยนเป็นช่วงวันที่ที่ต้องการ
-5. Click **New filters > Status > is > Completed** แล้วกด **Finish**
-
-จำนวนที่ขึ้น คือจำนวนนักเรียนที่มาใช้ in-water evaluation
-
-- กรณีนี้ใช้ได้ต่อเมื่อมีการ check-in ใช้ in-water แล้วเท่านั้น
-- หากอยากทราบว่านักเรียนที่ทดลองเรียนแล้ว ลงทะเบียนเรียนกับเราหรือไม่ ให้กดเข้าไปที่รายชื่อเพื่อเช็คได้"""),
-            ("เช็คนักเรียนที่มาเรียนครั้งแรก (First Visits)", """\
-1. กดกราฟ Report
-2. Click **Reporting** จะเจอหน้าต่างรายการ Report
-3. Click **First Visits**
-4. Click **Details > Filters** เปลี่ยนวันที่ ……… ถึงวันที่ ……… ที่ต้องการทราบ แล้วกด **Finish**
-
-กรณีนี้ใช้ดูนักเรียนที่จะเข้ามาโรงเรียนครั้งแรก"""),
-            ("เช็คนักเรียนที่ลงคอร์สเรียนแล้ว (First Memberships)", """\
-1. กดกราฟ Report
-2. Click **Reporting** จะเจอหน้าต่างรายการ Report
-3. Click **First Memberships**
-4. Click **Details > Filters** เปลี่ยนวันที่ ……… ถึงวันที่ ……… ที่ต้องการทราบ แล้วกด **Finish**
-
-กรณีนี้สามารถนำรายชื่อไปเปรียบเทียบกับ Report First Visits ได้ว่า นักเรียนที่มาเรียนครั้งแรกสมัครเป็น Membership กี่คน"""),
-            ("เช็คนักเรียนที่จะมีวันเกิดในเดือนถัดไป", """\
-1. กดกราฟ Report
-2. Click **Reporting > Clients > Details > Filters**
-3. Click **New filters > Days Until Birthday > is less than** แล้วพิมพ์เลข **30**
-4. Click **New filters > Has membership? > is > Yes** แล้วกด **Finish**
-
-**หมายเหตุเรื่องตัวเลขวัน:** ตัวเลขขึ้นอยู่กับว่าดึงวันไหนและต้องการดูกี่วันข้างหน้า เช่น ถ้าดึงวันที่ 25 ของเดือนนี้ ต้องใส่ 35 วันข้างหน้า จึงจะครอบคลุมนักเรียนที่เกิดเดือนหน้าทั้งเดือน"""),
-            ("เช็คบิลที่ต้องเก็บเงินในเดือนถัดไป", """\
-ปกติ FDS (Front Desk) จะต้องดึง Report นี้ล่วงหน้าก่อนสิ้นเดือนประมาณ 1–2 สัปดาห์ เพื่อให้มีเวลาแจ้งลูกค้าขณะที่ลูกค้ายังมาที่โรงเรียนอยู่
-
-**ขั้นตอน**
-
-Click **Insights > Reporting > Financials > Invoice Item > Details > Filters > Invoice due date > is between > Jump to…** เลือกวันที่เริ่มต้น – วันที่สิ้นสุดที่ต้องการ แล้วกด **Finish**"""),
-            ("เช็คจำนวนแพลนที่ถูกเปิดใช้ทั้งหมด (Client Passes & Plans)", """\
-ใช้ดูว่านักเรียนในโรงเรียนใช้แพลนอะไรอยู่บ้าง
-
-1. Click **Insights > Reporting > Client passes & Plans > Details > Filters > Membership? > is > Yes**
-2. **+New filters > Available? > is > Yes**
-3. **+New filters > Plan name > contains > Group lessons**
-4. **+New filters > Plan name > contains > Private**
-5. **+New filters > Plan name > contains > Fast Track**
-
-**หมายเหตุ:** ชื่อแพลนต้องเขียนให้ตรงกับแพลนที่สร้างไว้ หากมีแพลนที่ชื่อไม่มีคำข้างต้น (เช่น ไม่มีคำว่า Group lessons) ต้องกด +New filters เพิ่มอีกกล่องสำหรับชื่อแพลนนั้น"""),
-            ("เช็คยอดขายรายวันและรายเดือน", """\
-1. เข้า **Reporting**
-2. เข้า **Financials** ที่แถบเครื่องมือด้านขวา
-3. เลือกหัวข้อ **Transactions by Invoice Item**
-4. คลิก **Details** (สัญลักษณ์รูปแว่นขยาย)
-5. คลิก **Filters** (สัญลักษณ์รูปกรวย)
-
-**ยอดขายรายวัน:** **+New Filter > On > Jump to…** เลือกวันที่ที่ต้องการดู แล้วกด **Finish**
-ผลที่แสดงจะเป็นรายการซื้อภายในวันนั้น ๆ หากต้องการให้ระบบรวมยอดให้ ให้กดที่คำว่า **Summary** แล้วดูตาม **Payment Methods > Revenue Category**
-
-**ยอดขายรายเดือน:** **+New Filter > is between > Jump to…** เลือกวันที่เริ่มต้น – วันสุดท้ายของเดือน แล้วกด **Finish**"""),
-            ("ดึงจำนวนนักเรียนที่เรียนอยู่ในแต่ละเลเวล ณ ปัจจุบัน", """\
-ตัวอย่าง: หานักเรียนที่เรียนในเลเวล 4 ที่ยังเรียนอยู่ ณ ปัจจุบัน
-
-1. กดกราฟ Report
-2. Click **Reporting > Clients > Details**
-3. **Filters > +New filter > Has membership? > is > Yes**
-4. **+New filter > Last completed visit service > is > 4 - Seahorses** แล้วกด **Finish**
-
-เปลี่ยนชื่อเลเวลในข้อ 4 ตามเลเวลที่ต้องการดึง"""),
-            ("ดึงรายชื่อนักเรียนที่มีตารางเรียนในแต่ละวัน", """\
-1. ไปที่แถบเครื่องมือการนำทางของ Pike13
-2. คลิกไอคอนกราฟ **Reporting**
-3. เลือก **Clients & Staff**
-4. เลือก **Enrollments**
-5. เลือก **Details**
-6. คลิก **Filters**
-7. เพิ่มตัวกรอง **Service date > on > Jump to…** เลือกวันที่ที่ต้องการดึง
-8. คลิก **Finish**"""),
-        ],
-    },
-    {
-        "doc_id": "refund-form",
-        "title": "แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)",
-        "category": "แบบฟอร์ม / การเงิน",
-        "source_type": "google-doc",
-        "url": "https://docs.google.com/document/d/10LEJrwyVeN01CjL5UuEyBb95a9DpQA7uHAX61519vpw/edit",
-        "modified": "2026-09-03",
-        "chunks": [
-            ("ข้อมูลที่ต้องกรอกในแบบฟอร์มขอคืนเงิน", """\
-แบบฟอร์มขอคืนเงินลูกค้า (CUSTOMER REFUND REQUEST FORM) ใช้เมื่อลูกค้าขอคืนเงิน โดยต้องกรอกข้อมูลดังนี้
-
-**ส่วนหัว:** สาขา, วันที่
-
-**ข้อมูลลูกค้า**
-- ชื่อลูกค้า/ผู้ปกครอง
-- โทรศัพท์
-- ชื่อนักเรียน
-- ใบเสร็จ/Invoice No.
-- วันที่ชำระ
-
-**รายละเอียดการขอคืนเงิน**
-- ประเภท: ☐ เต็มจำนวน ☐ บางส่วน ☐ ชำระซ้ำ ☐ ยกเลิกบริการ ☐ อื่น ๆ (ระบุ)
-- ยอดเงินที่ขอคืน (บาท)
-- เหตุผลในการขอคืนเงิน
-- วิธีคืนเงิน: ☐ โอนบัญชี ☐ อื่น ๆ (ระบุ)
-- ชื่อบัญชี, ธนาคาร, เลขที่บัญชี
-- ☐ แนบหน้าบัญชีธนาคารลูกค้า (กรณีโอนเงินคืน)"""),
-            ("ลำดับการอนุมัติและการรับทราบของลูกค้า", """\
-**ลำดับผู้ลงนามอนุมัติ (3 ขั้น)**
-
-1. **พนักงานผู้เสนอเรื่อง** – ลงชื่อรับรองว่า "ข้าพเจ้าตรวจสอบข้อมูลและเอกสารประกอบแล้ว" พร้อมวันที่
-2. **GM สาขา** – เลือก ☐ ตรวจสอบแล้ว เห็นควรอนุมัติ / ☐ ไม่เห็นควรอนุมัติ / ☐ เสนอปรับยอดเป็น ……… บาท แล้วลงชื่อพร้อมวันที่
-3. **ผู้มีอำนาจอนุมัติ** – เลือก ☐ อนุมัติ ……… บาท / ☐ ไม่อนุมัติ แล้วลงชื่อพร้อมวันที่
-
-**การรับเงินและการรับทราบของลูกค้า**
-
-- บันทึก วันที่คืนเงินจริง, จำนวนเงิน (บาท), Transaction No.
-- ลูกค้า/ผู้ปกครองลงชื่อรับทราบว่า "ข้าพเจ้ารับทราบจำนวนเงินและวิธีการคืนเงินตามที่ระบุในแบบฟอร์มนี้" พร้อมวันที่"""),
-            ("เงื่อนไขและระยะเวลาการคืนเงิน", """\
-- โรงเรียนจะดำเนินการคืนเงิน **ภายใน 7 วันทำการ** นับจากวันที่ได้รับการอนุมัติครบถ้วน และได้รับข้อมูลสำหรับการคืนเงินถูกต้องครบถ้วน
-- กรณีเอกสารหรือข้อมูลไม่ครบถ้วน ระยะเวลาจะเริ่มนับเมื่อได้รับข้อมูลครบถ้วนถูกต้อง
-- โรงเรียนจะแจ้งหลักฐานการคืนเงินให้ลูกค้าทราบหลังดำเนินการเสร็จสิ้น"""),
-        ],
-    },
-    {
-        "doc_id": "new-school-opening",
-        "title": "New School Opening Facility Completion Tasks",
-        "category": "การเปิดสาขาใหม่",
-        "source_type": "google-doc",
-        "url": "https://docs.google.com/document/d/1cyQZv9EHyoJ59KSu8IhnS_hcJNwUtuj7OkfSWLWO2jY/edit",
-        "modified": "2025-09-10",
-        "chunks": [
-            ("ภาพรวมการจัดเตรียมสถานที่ก่อนเปิดสาขาใหม่และเอกสารประกอบ", """\
-หลังจากที่สาขาใหม่ของ Aqua-Tots ได้รับ Certificate of Occupancy (C of O) หรือใบรับรองใด ๆ ที่อนุญาตให้ลูกค้าเข้ามาใช้สถานที่ได้แล้ว เจ้าของผู้ดำเนินการจะต้องเริ่มจัดเตรียมสถานที่
-
-สำหรับเจ้าของแฟรนไชส์ที่เปิดสาขา Aqua-Tots เป็นครั้งแรก งานต่าง ๆ เหล่านี้ต้องดำเนินการให้เสร็จสิ้น **ก่อนที่ field training team จะเข้าไปช่วยเทรน** โดยกำหนดให้การจัดเตรียมสถานที่ใช้เวลา **อย่างน้อย 4 วัน** แต่ละวันมีหัวข้อหลักต่างกัน:
-
-- Day 1: Technology
-- Day 2: Lobby & Front Desk
-- Day 3: Pool Room
-- Day 4: Changing Room
-
-**เอกสารประกอบ (Resources) บน The Hub**
-
-- [Aqua-Card Process Sheet.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERGZkE_5Af9MmhB7lDcZfeMBRCvleaKX7uc6eaKCgLS22g?e=EQT6JY)
-- [Daily Aquatic Checklist.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EcjrBhlTl31OjVK-1BErfowBOIAGB5ijBR49rccgLIn4Xg?e=RDc9n0)
-- [Front Desk Filing Drawers and Cabinets Setup.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EUmm5naH12BGnH9aixYFmM8BGiKNiokMbdkXknVwAL4AHQ?e=WQajVZ)
-- [Graduation Installation.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EYrUcMNswyxGin3useOQWlwBuFy_Sln36XcMfCbgByGGUw?e=R1Db6C)
-- [Pool Zone Placement and Teaching Tool Setup.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EdO3OlQTkUNNjsgcZtU1irsBBLGXkNdCjctNUpn1Av8VGw?e=uHOINc)
-- [Setting Up a Coffee Bar.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERH7UobJsXJKthaOKIElI2MBz4Ma2koVpgNjGDpesxTbQg?e=J4MasA)
-- [Staff Reference Binders.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERz80eWZprVAiNRzG8uUBdIB16wEA03ftrmOK8UWJ9mFfw?e=V29dt9)"""),
-            ("Day 1: Technology (ระบบเทคโนโลยี)", """\
-เช็กลิสต์สิ่งที่ต้องจัดเตรียม/ติดตั้งให้เรียบร้อยในวันที่ 1:
-
-- ☐ ระบบ Internet
-- ☐ โทรศัพท์
-- ☐ คอมพิวเตอร์
-- ☐ ทีวี พร้อมอุปกรณ์สำหรับเปิดไฟล์ต่าง ๆ
-- ☐ iPads (ดู [Aqua-Card Process Sheet.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERGZkE_5Af9MmhB7lDcZfeMBRCvleaKX7uc6eaKCgLS22g?e=EQT6JY))"""),
-            ("Day 2: Lobby & Front Desk (ล็อบบี้และเคาน์เตอร์ประชาสัมพันธ์)", """\
-เช็กลิสต์สิ่งที่ต้องจัดเตรียม/ติดตั้งให้เรียบร้อยในวันที่ 2:
-
-- ☐ เครื่องพ่นกลิ่นหอม (Aroma Retail)
-- ☐ ระบบเสียง (Dynamic Media)
-- ☐ แฟ้มเอกสาร (ดู [Staff Reference Binders.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERz80eWZprVAiNRzG8uUBdIB16wEA03ftrmOK8UWJ9mFfw?e=V29dt9))
-- ☐ ตู้เก็บเอกสาร Front Desk (ดู [Front Desk Filing Drawers and Cabinets Setup.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EUmm5naH12BGnH9aixYFmM8BGiKNiokMbdkXknVwAL4AHQ?e=WQajVZ))
-- ☐ อุปกรณ์สำนักงาน (จัดเก็บเป็นกล่อง/bins)
-- ☐ Printer
-- ☐ ป้ายชื่อพนักงานที่เคาน์เตอร์ประชาสัมพันธ์ (Front Desk name tags มีชื่อกำกับ)
-- ☐ เก้าอี้และโต๊ะตามตำแหน่งที่กำหนดไว้ในแปลน
-- ☐ ผนังวางขายสินค้า Swim Gear
-- ☐ Coffee bar (ดู [Setting Up a Coffee Bar.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/ERH7UobJsXJKthaOKIElI2MBz4Ma2koVpgNjGDpesxTbQg?e=J4MasA))
-- ☐ กระดิ่งจบเลเวล (ดู [Graduation Installation.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EYrUcMNswyxGin3useOQWlwBuFy_Sln36XcMfCbgByGGUw?e=R1Db6C))"""),
-            ("Day 3: Pool Room (ห้องสระว่ายน้ำ)", """\
-เช็กลิสต์สิ่งที่ต้องจัดเตรียม/ติดตั้งให้เรียบร้อยในวันที่ 3:
-
-- ☐ สติ๊กเกอร์ประตูเข้า–ออกสระ
-- ☐ ลังสำหรับใส่อุปกรณ์การสอน (ดู [Pool Zone Placement and Teaching Tool Setup.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EdO3OlQTkUNNjsgcZtU1irsBBLGXkNdCjctNUpn1Av8VGw?e=uHOINc))
-- ☐ ลู่กั้นเลน
-- ☐ แบนเนอร์ในสระ
-- ☐ แฟ้มใส่เอกสารพร้อมบัตร IWSE, บัตร Mastery, เพลง, Talks, Cue Cards และ Teaching Cards ในห้องสระ
-- ☐ สารเคมีสำหรับสระ
-- ☐ ชุดอุปกรณ์ทดสอบสารเคมี
-- ☐ ตารางทำความสะอาด (ดู [Daily Aquatic Checklist.docx](https://aquatots3.sharepoint.com/:w:/s/ATHQFranchiseSupport/EcjrBhlTl31OjVK-1BErfowBOIAGB5ijBR49rccgLIn4Xg?e=RDc9n0))"""),
-            ("Day 4: Changing Room (ห้องเปลี่ยนเสื้อผ้า)", """\
-เช็กลิสต์สิ่งที่ต้องจัดเตรียม/ติดตั้งให้เรียบร้อยในวันที่ 4:
-
-- ☐ ป้ายหน้าประตูห้องน้ำแต่ละห้อง
-- ☐ ตะกร้าในห้องน้ำ พร้อมอุปกรณ์ ยางรัดผม, หวี, โลชั่น ฯลฯ
-- ☐ ถุงใส่ผ้าเปียก / เครื่องปั่นแห้งชุดว่ายน้ำ"""),
-        ],
-    },
-    {
-        "doc_id": "disciplinary-letter",
-        "title": "จดหมายแจ้งบทลงโทษ (คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา)",
-        "category": "วินัย / ความปลอดภัย",
-        "source_type": "google-doc",
-        "url": "https://docs.google.com/document/d/1ZvDVPCpyFumoDuR7d4HybsTC_jRKU7SWGZDIxPFuDp4/edit",
-        "modified": "2025-09-11",
-        "chunks": [
-            ("มาตรการทางวินัยกรณีเกิดเหตุ in-water slip", """\
-**เรื่อง:** คำสั่งมาตรการทางวินัยกรณีพนักงานสาขา
-**เรียน:** ผู้จัดการสาขาและเจ้าของสาขาปัญญาอินทรา-รามอินทรา
-
-ตามที่ได้เกิดเหตุการณ์ **in-water slip** ขึ้นในสาขา สำนักงานใหญ่ได้พิจารณาแล้วเห็นว่าเป็นความจำเป็นต่อการปรับปรุงอย่างเร่งด่วน ซึ่งไม่สามารถมองข้ามได้ เพื่อให้เกิดความชัดเจนในการดำเนินการด้านความปลอดภัยในการสอน จึงมีข้อปฏิบัติให้สาขาดำเนินการดังนี้:
-
-1. พนักงานโค้ชที่เกี่ยวข้อง ให้ **หยุดปฏิบัติหน้าที่โดยมีผลบังคับใช้ทันที**
-2. ให้ **พักงานเป็นเวลา 1 เดือนเต็ม** โดยไม่อาจยกเว้นหรือเลื่อนกำหนดได้
-3. ก่อนกลับมาปฏิบัติหน้าที่ พนักงานจะต้อง **เข้ารับการอบรมด้านความปลอดภัยและผ่านการประเมินซ้ำจากสำนักงานใหญ่** หากไม่ผ่านการประเมิน จะไม่สามารถกลับมาปฏิบัติหน้าที่ได้"""),
-            ("บรรทัดฐานทุกสาขา การทบทวนแนวทาง และบทลงโทษหากไม่ปฏิบัติตาม", """\
-- มาตรการข้างต้นเป็นการลงโทษทางวินัยขั้นเด็ดขาด และให้ **ถือเป็นบรรทัดฐานของทุกสาขา** สาขาต้องดำเนินการตามคำสั่งอย่างเคร่งครัด และรายงานผลการดำเนินงานมายังสำนักงานใหญ่โดยทันที
-- สาขาต้องทบทวนแนวทางการปฏิบัติที่ได้รับมอบหมายและอบรมก่อนหน้านี้ เพื่อตอกย้ำความสำคัญต่อการเรียนการสอนตามมาตรฐาน โดยเน้นย้ำเรื่อง **ความปลอดภัยทั้งบนบกและในน้ำ**
-- ถึงแม้เหตุการณ์จะไม่ได้เกิดจากความประมาทหรือความตั้งใจ แต่ก็ **จำเป็นต้องมีบทลงโทษ** ให้กับพนักงานที่เกี่ยวข้อง
-- หากสาขาใดไม่ปฏิบัติตาม จะถือว่าฝ่าฝืนคำสั่งของสำนักงานใหญ่ และจะมีบทลงโทษเพิ่มเติมตามความเหมาะสม
-
-ลงนามโดย นางสาวทิพย์รัตน์ สิทธิมนต์อำนวย, Master Developer, Aqua-Tots Swim Schools Thailand & Southeast-Asia"""),
-        ],
-    },
-    {
-        "doc_id": "care-sale",
-        "title": "Care Sale (คู่มือการขายและการรักษาลูกค้า)",
-        "category": "การขาย / บริการลูกค้า",
-        "source_type": "pdf",
-        "url": "https://drive.google.com/file/d/1Fkzq9GtU030gTGVZGQAyXqOyUV_lZN6t/view",
-        "modified": "2026-09-29",
-        "chunks": [
-            ("ภาพรวมกระบวนการ Care Sale และ Retention", """\
-Care Sale คือกระบวนการขายและดูแลครอบครัวลูกค้าของ Aqua-Tots แบ่งเป็น 2 ส่วน
-
-**1. กระบวนการขาย (Care Sale Process) – สำหรับลูกค้าใหม่**
-
-1. **Connect** (เชื่อมความสัมพันธ์)
-2. **Assess** (ประเมิน)
-3. **Recommend** (ให้คำแนะนำ)
-4. **Enroll** (ลงทะเบียน)
-
-**2. การรักษาลูกค้า (Retention) – สำหรับนักเรียนที่ลงทะเบียนแล้ว/นักเรียนปัจจุบัน**
-
-1. **Reconnect** (รักษาความสัมพันธ์)
-2. **Reassess** (ประเมินอีกครั้ง)
-3. **Recommend** (ให้คำแนะนำ)
-4. **Re-enroll** (ลงทะเบียนต่อ)"""),
-            ("Connect: Don't Say No, Multitasking Skills และ Welcoming Families", """\
-ขั้น **Connect (เชื่อมความสัมพันธ์)** ประกอบด้วย 3 ทักษะ
-
-**1. Don't Say No (ห้ามพูดคำว่า "ไม่")**
-ควรหาวิธีหลีกเลี่ยงการพูดว่า "ไม่" ไม่ว่าจะหน้างานหรือรับโทรศัพท์
-ตัวอย่าง: คุณแม่ต้องการตาราง 13.00 วันอังคาร (ซึ่งเต็ม) ให้ตอบว่า "วันพุธ / วันพฤหัส / วันศุกร์ มีว่างรอบ 13.00 หรือวันอังคารมีรอบ 14.00 คุณแม่สะดวกไหมคะ"
-
-**2. Multitasking Skills (ความสามารถในการทำหลายอย่างพร้อมกัน)**
-เมื่อทำหลายอย่างพร้อมกัน ความแม่นยำจะลดลง 35% เหมือนกฎหมายห้ามเล่นโทรศัพท์ตอนขับรถ Multitasking อาจดูเป็นสิ่งที่ดี แต่จริง ๆ แล้วเป็นไปไม่ได้เลยที่จะทำสองอย่างให้ดีพร้อมกัน
-
-**3. Welcoming Families (กล่าวต้อนรับทุกครั้ง / ภาษากาย)**
-- **น้ำเสียง:** ไม่ใช้เสียงแบบหุ่นยนต์ (Robot / Mono Tone) ซึ่งไม่สุภาพ ควรกระตือรือร้นด้วยน้ำเสียง
-- **ภาษากายเชิงบวก:** มีกิริยาต้อนรับที่ดี, นั่ง/ยืนหลังตรง, ยืนอกผายไหล่ผึ่ง, สบตาครอบครัวอยู่เสมอ, สบตาพร้อมตอบคำถาม, ยิ้ม – แสดงถึงความรู้ ความมั่นใจ และการตอบสนองอย่างรวดเร็ว
-- **ภาษากายเชิงลบ (ควรหลีกเลี่ยง):** นั่ง/ยืนหลังค่อม, ห่อไหล่, ยืนกอดอก, หลบตาขณะตอบคำถาม – ทำให้รู้สึกได้ว่าเราขาดความมั่นใจ"""),
-            ("Assess: Forecasting (การคาดการณ์) และประโยคตัวอย่าง", """\
-ขั้น **Assess (ประเมิน)** คือการประเมินอย่างแม่นยำทั้งเด็กและผู้ปกครอง ประกอบด้วย 3 ทักษะ: Forecasting, Open-Ended Question and Building Trust และ Effective Listening Skill
-
-**Forecasting (การคาดการณ์)**
-"หากคุณมั่นใจและสบายใจ ลูกค้าของคุณก็เช่นกัน" – ทำให้ผู้ปกครองไม่คิดหนัก มีส่วนร่วม และผ่อนคลาย ซึ่งทำให้มีแนวโน้มตัดสินใจเลือกสิ่งที่ดีที่สุดสำหรับครอบครัวได้ง่ายขึ้น
-
-หลัก 5 ข้อ:
-1. เตรียมข้อมูลให้พร้อม
-2. สื่อสารให้ชัดเจน
-3. สร้างความไว้วางใจ
-4. แสดงให้เห็นถึงความมั่นใจ
-5. ผ่อนคลาย
-
-ประโยคตัวอย่าง:
-- "คลาสเรียนของเรามีมากมายให้คุณแม่พิจารณาเลยค่ะ แต่ก่อนอื่น แอดมินขออนุญาตสอบถามข้อมูลเพิ่มเติมเกี่ยวกับน้องก่อนนะคะ"
-- "เพื่อให้ตรงตามความต้องการของคุณแม่มากที่สุด แอดมินขอสอบถามเพิ่มเติมเกี่ยวกับน้องก่อนนะคะ"
-- "เรียบร้อยค่ะคุณแม่ ตอนนี้แอดมินได้รับข้อมูลของน้องครบแล้ว ขอรบกวนเวลาสักครู่เพื่อเช็คตารางเรียนที่เหมาะสมกับน้อง แอดมินจะกลับมาแจ้งสักครู่นะคะ\""""),
-            ("Assess: คำถามปลายเปิด (5W1H) และการฟังอย่างมีประสิทธิภาพ", """\
-**Open-Ended Question and Building Trust (ตั้งคำถามปลายเปิด)**
-หลีกเลี่ยงคำถามปลายปิดที่ตอบได้แค่ ใช่/ไม่ใช่ และใช้เทคนิคการฟังให้ดีที่สุด ตัวอย่างคำถาม:
-
-- **Who (ใคร):** สนใจลงทะเบียนให้น้องคนไหนดีคะ
-- **What (อะไร):** น้องมีประสบการณ์เรียนว่ายน้ำมาก่อนไหมคะ
-- **When (เมื่อไหร่):** คุณแม่สะดวกช่วงเวลาไหนดีคะ
-- **Where (ที่ไหน):** คุณแม่รู้จักโรงเรียนจากที่ไหนคะ
-- **Why (ทำไม):** ทำไมคุณแม่ถึงพาน้องมาเรียนว่ายน้ำคะ
-- **How (อย่างไร):** น้องเคยเล่าถึงประสบการณ์ตอนเรียนว่ายน้ำไหมคะ
-
-**Effective Listening Skill (การฟังอย่างมีประสิทธิภาพ)**
-ต้องสามารถตอบคำถามผู้ปกครองได้ครบทุกคำถามเมื่อผู้ปกครองขอข้อมูล – ผู้ที่ตอบคำถามได้ทั้งหมดคือผู้ฟังที่มีประสิทธิภาพ
-ตัวอย่าง: ผู้ปกครองโทรมาขอข้อมูลคลาสเวลา 17.30 วันพฤหัส และมีคำถามเกี่ยวกับขนาดสระ / ระบบน้ำ / ตารางเรียน / ค่าใช้จ่าย ฯลฯ โดยลูกอยู่เลเวล 1 แอดมินต้องตอบได้ครบทุกข้อ"""),
-            ("Recommend: FBI for Aqua-Tots Service (Features, Benefits, Imagery)", """\
-ขั้น **Recommend (ให้คำแนะนำ)** ประกอบด้วย FBI for Aqua-Tots Service (Aqua-Tots เป็นมากกว่าโรงเรียนสอนว่ายน้ำ), You're the expert (คุณเป็นผู้เชี่ยวชาญ) และ Handling Objections
-
-**F – Features (คุณสมบัติ)**
-คุณลักษณะเฉพาะที่มีแค่ Aqua-Tots เท่านั้น:
-- คลาสเรียน 30 นาที
-- คลาสเรียนกลุ่มเล็ก อัตราส่วน 4:1
-- โค้ชผ่านการอบรมมากกว่า 72 ชั่วโมง
-- คลาสเรียนมีหลายเลเวลที่เรียนพร้อมกันได้
-
-**B – Benefits (ประโยชน์ที่จะได้รับ)**
-ต้องอธิบายได้ว่าคุณลักษณะเด่นมีประโยชน์อย่างไร เช่น "โค้ชอบรมมามากกว่า 72 ชั่วโมง ทำให้มั่นใจได้เลยว่าคลาสเรียนจะปลอดภัย และโค้ชสามารถดูแลและผลักดันน้อง ๆ ได้แน่นอน"
-
-**I – Imagery (การนึกภาพ)**
-พูดให้ผู้ปกครองเห็นภาพมากที่สุด โดยเล่าถึง Features / Benefits ให้น่าเพลิดเพลิน เช่น "โค้ชอบรมมามากกว่า 72 ชั่วโมง เมื่อคุณแม่พาน้องไปเที่ยวช่วงปิดเทอมที่ Pool villa คุณแม่ก็พักผ่อนรอบขอบสระได้อย่างมั่นใจว่าน้อง ๆ จะปลอดภัยและสนุกกับการเล่นน้ำแน่นอน\""""),
-            ("Recommend: Handling Objections (การจัดการข้อโต้แย้งของผู้ปกครอง)", """\
-**Handling Objections (การรับมือกับปัญหา / การจัดการกับข้อโต้แย้ง)** – ต้องรับมือกับผู้ปกครองที่กังวล
-
-**การเตรียมตัว**
-- สงบสติอารมณ์เมื่อเจอปัญหา
-- ให้ข้อมูลที่จำเป็นให้ครบถ้วน
-
-**ข้อโต้แย้งที่พบบ่อย**
-- ค่าเรียนของคอร์สนี้เท่าไหร่
-- ทำไมต้องจ่ายค่าเรียนแพงขนาดนี้ ในเมื่อไปเรียนที่สระหมู่บ้านก็ได้
-- จะสอนอะไรลูกของฉันได้บ้างที่ที่อื่นทำไม่ได้
-- ทำไมต้องจ่ายค่าสมาชิก
-- "ขอลองเปรียบเทียบกับข้อเสนอของหมู่บ้านดูก่อนจะตัดสินใจ"
-
-**ขั้นตอนตอบข้อโต้แย้ง 3 ขั้น**
-1. **ทวนคำพูด** – ย้ำสิ่งที่ผู้ปกครองกังวล เช่น "ได้เลยค่ะ คุณแม่จะลองเปรียบเทียบกับข้อเสนอของสระหมู่บ้านก่อนตัดสินใจนะคะ" ทำให้ผู้ปกครองรู้ว่าเราได้ยินสิ่งที่พูด และช่วยยืนยันความหมาย (ป้องกันความเข้าใจผิด)
-2. **ตรวจสอบความถูกต้อง (Validate)** – ตอบกลับโดยแสดงความเห็นด้วยกับสิ่งที่ผู้ปกครองพูด เช่น "ดีเลยค่ะคุณแม่ การเปรียบเทียบข้อเสนอของแต่ละที่ดีมากเลยค่ะ"
-3. **ให้ข้อมูลใหม่** – แม้ผู้ปกครองกำลังจะกลับ เรายังคงให้ความช่วยเหลือต่อไป เช่น "หากคุณแม่พาน้องไปเรียนแล้ว มีฟีดแบคยังไงมาแชร์ให้แอดมินทราบได้เลยนะคะ หรือถ้าลองแล้วโอเคกับการสอนของ Aqua-Tots มากกว่า มาจองตารางเรียนกับแอดมินได้ตลอดเวลาเลยนะคะ โรงเรียนเราเปิดทุกวัน มีคลาสเรียนรองรับเยอะมากเลยค่ะ\""""),
-            ("Enroll: Precision with POS, Building a Profile และ Forecasting Next Steps", """\
-ขั้น **Enroll (ลงทะเบียน)** – ประตูด่านสุดท้ายในการขาย
-
-**Precision with POS (ความแม่นยำในระบบ POS)**
-- บริหารจัดการคลาสอย่างมีประสิทธิภาพ แอดมินใช้ระบบ POS ได้อย่างแม่นยำ
-- โต้ตอบรวดเร็ว สะดวกสบาย ง่ายดาย และมั่นใจที่จะแก้ปัญหาหากมีสถานการณ์ฉุกเฉิน
-- ลงทะเบียนอย่างราบรื่นและไม่ตึงเครียด
-- ตัวอย่างฟีดแบคที่ต้องหลีกเลี่ยง: "โรงเรียนดีมาก ๆ ดูสะดวกสบาย มีคลาสเรียนเยอะ… แต่รอตารางเรียนนานไปนิด… แต่ลงทะเบียนยากมาก"
-- ตัวอย่าง: น้องเลเวล 3 และเลเวล 5 เรียนสัปดาห์ละ 1 ครั้ง ต้องการเรียนพร้อมกันทั้งสองคน แอดมินต้องใช้ระบบได้รวดเร็วเพื่อตอบลูกค้า
-
-**Building a Profile for the Family (สร้างโปรไฟล์สำหรับครอบครัวใหม่)**
-กรอกข้อมูลที่จำเป็นให้ครบทุกหัวข้อ อย่างรวดเร็วและถูกต้อง เพื่อ
-- ติดตามความคืบหน้าในการมาเรียน
-- ติดต่อลูกค้าได้ง่าย
-
-**Forecasting Next Steps (การคาดการณ์ล่วงหน้า)**
-แจ้งผู้ปกครองให้ชัดเจน ไม่ปล่อยให้คิดหรือเดาเอง (ซึ่งทำให้สับสนและไม่สบายใจ):
-- สิ่งที่จะได้รับจากการเรียน (พัฒนาการ / Aqua-Cards)
-- สิ่งที่ต้องเตรียมในการมาเรียน
-- โค้ชที่สอนน้องคือใคร
-- วิธีใช้เว็บไซต์เพื่อดูตารางเรียน"""),
-            ("Retention: Reconnect และ Reassess", """\
-**Retention (การรักษาลูกค้า) 4 ขั้น** ใช้กับนักเรียนที่ลงทะเบียนแล้ว/นักเรียนปัจจุบัน: Reconnect → Reassess → Recommend → Re-enroll
-
-**Reconnect (การรักษาความสัมพันธ์)** – ทักษะที่ใช้:
-- จดจำชื่อ
-- ห้ามปฏิเสธ
-- รู้วันสำคัญ
-- หาคำตอบโดยการยื่นข้อเสนอแนะ
-- แสดงความยินดีกับความสำเร็จ
-- ตื่นตัวอยู่เสมอ ช่วยเหลือทุกเมื่อที่จำเป็น
-- กล่าวทักทาย ยิ้ม สวัสดี
-- แม้ว่าจะทำงานอะไรอยู่ ให้เลือกดูแลครอบครัวที่อยู่ตรงหน้าก่อน
-
-**Reassess (การประเมินอีกครั้ง)** – การเปลี่ยนแปลงเกิดขึ้นได้เสมอ ใช้คำถามปลายเปิดเพื่อประเมิน:
-- เด็ก ๆ ได้ขึ้นเลเวลแล้วหรือยัง ได้พัฒนาทักษะใหม่หรือยัง
-- มีพี่น้องในครอบครัวมาเรียนเพิ่มไหม
-- มีการเปลี่ยนแปลงตารางเรียนไหม
-- ความต้องการ / ความคาดหวังของผู้ปกครองเป็นไปในทางไหน
-
-ตัวอย่างคำถาม: น้องเพลิดเพลินกับคลาสเรียนแค่ไหน, น้องชอบส่วนไหนของการเรียน/โรงเรียน, ปิดเทอมนี้จะไปเที่ยวที่ไหน, เป้าหมายของผู้ปกครองคืออะไร
-
-ใช้การฟังอย่างมีประสิทธิภาพที่สุด และระหว่างฟังให้มองหาความต้องการของลูกค้า"""),
-            ("Retention: Recommend และ Re-enroll", """\
-**Recommend (การให้คำแนะนำ) สำหรับนักเรียนปัจจุบัน – 4 ขั้น**
-1. เรียนรู้ปัญหาของลูกค้า
-2. หาวิธีรับมือ / แก้ปัญหา
-3. ใช้ FBI (Features, Benefits, Imagery) เพื่อแก้ปัญหา
-4. จัดการข้อโต้แย้งของลูกค้า (Handling Objections)
-
-**Re-enroll (ลงทะเบียนต่อ)**
-- มีความแม่นยำในการใช้ POS
-- มีความเข้าใจเกี่ยวกับลูกค้า
-- พิจารณาว่ามีอะไรที่ต้องแนะนำลูกค้าเพิ่มบ้าง
-- แจ้งถึงสิ่งที่น้อง ๆ จะได้รับในอนาคต เพื่อให้ครอบครัวมีเป้าหมาย"""),
-        ],
-    },
-]
+DRIVE_FOLDER = "https://drive.google.com/drive/folders/1kmqSXJ3rAkUhauMF2OGb-sPCohtUP0wb"
+
+CHUNK_MARKER = re.compile(r"^<!-- chunk: (.+?) -->\s*$", re.MULTILINE)
+
+
+def parse_source(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8")
+    _, header, body = text.split("---\n", 2)
+    doc = {}
+    for line in header.strip().splitlines():
+        key, value = line.split(":", 1)
+        doc[key.strip()] = value.strip()
+    pieces = CHUNK_MARKER.split(body)
+    # pieces = [preamble, title1, body1, title2, body2, ...]
+    doc["chunks"] = [
+        (pieces[i].strip(), pieces[i + 1].strip()) for i in range(1, len(pieces), 2)
+    ]
+    if not doc["chunks"]:
+        raise ValueError(f"{path} has no chunk markers")
+    return doc
 
 
 def yaml_str(value: str) -> str:
@@ -483,9 +43,8 @@ def yaml_str(value: str) -> str:
 
 def render_chunk(doc: dict, index: int, section: str, body: str) -> str:
     total = len(doc["chunks"])
-    chunk_id = f"{doc['doc_id']}-{index:03d}"
     meta = {
-        "chunk_id": chunk_id,
+        "chunk_id": f"{doc['doc_id']}-{index:03d}",
         "doc_id": doc["doc_id"],
         "doc_title": doc["title"],
         "section": section,
@@ -506,7 +65,7 @@ def render_chunk(doc: dict, index: int, section: str, body: str) -> str:
         "",
         f"# {doc['title']}: {section}",
         "",
-        body.strip(),
+        body,
         "",
         f"**แหล่งอ้างอิง:** [{doc['title']}]({doc['url']}) (ส่วนที่ {index}/{total})",
         "",
@@ -514,25 +73,30 @@ def render_chunk(doc: dict, index: int, section: str, body: str) -> str:
     return "\n".join(lines)
 
 
-def render_index() -> str:
+def render_index(docs: list) -> str:
+    total = sum(len(d["chunks"]) for d in docs)
     lines = [
         "# Aqua-Tots Knowledge Base (Chunks)",
         "",
         "เอกสารใน Google Drive ที่แปลงเป็น Markdown แบบแบ่ง chunk สำหรับ Chatbot (RAG)",
         f"แหล่งข้อมูลต้นทาง: [Google Drive folder]({DRIVE_FOLDER})",
         "",
-        "แต่ละไฟล์ใน `knowledge-base/<doc_id>/` คือ 1 chunk ประกอบด้วย",
+        f"รวม {len(docs)} เอกสาร, {total} chunks",
         "",
-        "- YAML front matter: `chunk_id`, `doc_title`, `section`, `source_url` (ลิงก์เอกสารต้นฉบับ) ฯลฯ",
-        "- เนื้อหาของหัวข้อนั้น ๆ ที่อ่านเข้าใจได้ในตัวเอง",
-        "- บรรทัด **แหล่งอ้างอิง** ท้ายไฟล์ ให้ Chatbot อ้างอิงลิงก์ได้แม้ไม่ได้อ่าน metadata",
+        "## โครงสร้าง",
         "",
-        "สร้างใหม่ด้วย `python scripts/build_chunks.py`",
+        "- `sources/<doc_id>.md`: เนื้อหาที่ทำความสะอาดแล้วของแต่ละเอกสาร แบ่งหัวข้อด้วย `<!-- chunk: ... -->`",
+        "- `knowledge-base/<doc_id>/<doc_id>-NNN.md`: 1 ไฟล์ = 1 chunk มี YAML front matter "
+        "(`chunk_id`, `doc_title`, `section`, `source_url` ฯลฯ) และบรรทัด **แหล่งอ้างอิง** ท้ายไฟล์",
         "",
-        "| เอกสาร | หมวด | จำนวน chunk | ลิงก์ต้นฉบับ |",
+        "แก้ไขเนื้อหาที่ `sources/` แล้วสร้าง chunk ใหม่ด้วย `python scripts/build_chunks.py`",
+        "",
+        "## รายการเอกสาร",
+        "",
+        "| เอกสาร | หมวด | chunks | ลิงก์ต้นฉบับ |",
         "| --- | --- | --- | --- |",
     ]
-    for doc in DOCS:
+    for doc in sorted(docs, key=lambda d: (d["category"], d["doc_id"])):
         lines.append(
             f"| `{doc['doc_id']}`: {doc['title']} | {doc['category']} | "
             f"{len(doc['chunks'])} | [เปิดเอกสาร]({doc['url']}) |"
@@ -542,7 +106,8 @@ def render_index() -> str:
 
 
 def main() -> None:
-    for doc in DOCS:
+    docs = [parse_source(p) for p in sorted(SOURCES.glob("*.md"))]
+    for doc in docs:
         doc_dir = OUT / doc["doc_id"]
         doc_dir.mkdir(parents=True, exist_ok=True)
         for old in doc_dir.glob("*.md"):
@@ -550,9 +115,9 @@ def main() -> None:
         for i, (section, body) in enumerate(doc["chunks"], start=1):
             path = doc_dir / f"{doc['doc_id']}-{i:03d}.md"
             path.write_text(render_chunk(doc, i, section, body), encoding="utf-8")
-    (ROOT / "README.md").write_text(render_index(), encoding="utf-8")
-    total = sum(len(d["chunks"]) for d in DOCS)
-    print(f"Wrote {total} chunks from {len(DOCS)} documents")
+    (ROOT / "README.md").write_text(render_index(docs), encoding="utf-8")
+    total = sum(len(d["chunks"]) for d in docs)
+    print(f"Wrote {total} chunks from {len(docs)} documents")
 
 
 if __name__ == "__main__":
