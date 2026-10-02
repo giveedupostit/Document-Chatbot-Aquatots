@@ -4,7 +4,7 @@ doc_id: "refund-form"
 doc_title: "แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)"
 section: "ลำดับการอนุมัติและการรับทราบของลูกค้า"
 chunk_index: 2
-total_chunks: 3
+total_chunks: 4
 category: "แบบฟอร์ม / การเงิน"
 source_type: "docx"
 source_url: "https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view"
@@ -26,4 +26,4 @@ language: "th"
 - บันทึก วันที่คืนเงินจริง, จำนวนเงิน (บาท), Transaction No.
 - ลูกค้า/ผู้ปกครองลงชื่อรับทราบว่า "ข้าพเจ้ารับทราบจำนวนเงินและวิธีการคืนเงินตามที่ระบุในแบบฟอร์มนี้" พร้อมวันที่
 
-**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 2/3)
+**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 2/4)

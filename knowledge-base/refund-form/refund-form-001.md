@@ -4,7 +4,7 @@ doc_id: "refund-form"
 doc_title: "แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)"
 section: "ข้อมูลที่ต้องกรอกในแบบฟอร์มขอคืนเงิน"
 chunk_index: 1
-total_chunks: 3
+total_chunks: 4
 category: "แบบฟอร์ม / การเงิน"
 source_type: "docx"
 source_url: "https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view"
@@ -34,4 +34,4 @@ language: "th"
 - ชื่อบัญชี, ธนาคาร, เลขที่บัญชี
 - ☐ แนบหน้าบัญชีธนาคารลูกค้า (กรณีโอนเงินคืน)
 
-**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 1/3)
+**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 1/4)

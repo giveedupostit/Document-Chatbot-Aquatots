@@ -4,7 +4,7 @@ doc_id: "refund-form"
 doc_title: "แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)"
 section: "เงื่อนไขและระยะเวลาการคืนเงิน"
 chunk_index: 3
-total_chunks: 3
+total_chunks: 4
 category: "แบบฟอร์ม / การเงิน"
 source_type: "docx"
 source_url: "https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view"
@@ -19,4 +19,4 @@ language: "th"
 - กรณีเอกสารหรือข้อมูลไม่ครบถ้วน ระยะเวลาจะเริ่มนับเมื่อได้รับข้อมูลครบถ้วนถูกต้อง
 - โรงเรียนจะแจ้งหลักฐานการคืนเงินให้ลูกค้าทราบหลังดำเนินการเสร็จสิ้น
 
-**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 3/3)
+**แหล่งอ้างอิง:** [แบบฟอร์มขอคืนเงินลูกค้า (Customer Refund Request Form)](https://drive.google.com/file/d/1J19X0OpWaed_4U9nlQYC7NgNUY1pr8Jl/view) (ส่วนที่ 3/4)
